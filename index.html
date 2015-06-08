@@ -1,4 +1,4 @@
-
+<!DOCTYPE html>
 
 <html>
 	
@@ -7,15 +7,26 @@
 		<title>Sports and Outdoors: Outdoor Gear & Equipment: Target</title>
 
 		<link rel="stylesheet" type="text/css" href="css/normalize.css">
+
+		<link href="css/sm-core-css.css" rel="stylesheet" type="text/css" />
+
+		<script type="text/javascript" src="js/jquery.smartmenus.js"></script>
+
+		<script src = "js/jquery-1.11.3.js"></script>
+		
 		<link rel="stylesheet" type="text/css" href="css/style.css">
-	
+
 	</head>
 
 	<body>
 
-		<header class="site_header">
+		<header class="site_header clearfix">
 
-			<nav class="primary_navigation">
+			<a href=""><img class="header_logo_m" src="img/target_logo.gif"></a>
+
+			<a href=""><img class="header_logo_dt" src="img/target_logo_white.png" alt=""></a>
+
+			<nav class="primary_navigation clearfix">
 
 				<ul class="primary_navigation_list">
 				
@@ -23,7 +34,7 @@
 					
 					<li><a href="">my store</a></li>
 
-						<div class="mystore_dropdown">
+						<div class="mystore_dropdown hover">
 
 							<ul class="my_store">
 								<li><h3>Columbia Garner's Ferry</h3></li>
@@ -57,381 +68,376 @@
 
 							<form>
 								
-								<input type="number" name="zipcode" min="5" max="5">
+								<input type="text" name="zipcode" min="5" max="5">
 								<input type="button" value="search" alt="search store">
 							
 							</form>
 
 						</div> <!--  End mystore dropdown -->
 
-					<li><a href=""></a>weekly ad</li>
-					<li><a href=""></a>gift cards</li>
-					<li><a href=""></a>registries</li>
-					<li><a href=""></a>TargetLists</li>
-					
+					<li><a href="">weekly ad</a></li>
+					<li><a href="">gift cards</a></li>
+					<li><a href="">registries</a></li>
+					<li><a href="">TargetLists</a></li>
+					<li><a href="">REDcard</a></li>
 
-						<div class="red_card">
+						<ul class="redcard_options hover">
+						
+							<li><a href="">learn about REDcard</a></li>
+							<li><a href="">manage my REDcard</a></li>
 
-							<ul class="redcard_options">
-							
-								<li><a href="">learn about REDcard</a></li>
-								<li><a href="">manage my REDcard</a></li>
+						</ul>
 
-							</ul>
-
-						</div>	
-
-					<li><a href="">email offers<br>sign up & save</a></li>		
+					<li><a href="">email offers</a></li>		
 				
 				</ul> 
 
 			</nav> <!-- End Main Navigation -->	
 
-			<div class="shop_all_categories">
+			<div class="mini_header clearfix">
 
-				<img src=""> <!-- Get 3 bars image -->
+				<div class="shop_all_categories">
 
-				<h3>shop all categories</h3>
+					<img src="img/white_menu_icon.png">
 
-					<ul class="main_categories_list">
+					<h3>shop all categories</h3>
 
-						<li>clothing, shoes, and jewelery</li>
+						<ul class="main_categories_list">
 
-							<div class="csj_sublist">
+							<li>clothing, shoes, and jewelery</li>
 
-								<div class="csj_sublist_col1">
+								<div class="csj_sublist hover">
 
-									<a href=""><h3>all clothing</h3></a>
+									<div class="csj_sublist_col1">
 
-									<br>
-									
-									<a href=""><h3>women's clothing</h3></a>
+										<ul class="womens_clothing_list">
 
-									<ul class="womens_clothing_list">
+											<h3><a href="">all clothing</a></h3>
 										
-										<li><a href="">activewear</a></li>
-										<li><a href="">blazers & jackets</a></li>
-										<li><a href="">dresses</a></li>
-										<li><a href="">intimates</a></li>
-										<li><a href="">jeans</a></li>
-										<li><a href="">outerwear</a></li>
-										<li><a href="">pants</a></li>
-										<li><a href="">shorts</a></li>
-										<li><a href="">skirts</a></li>
-										<li><a href="">sleepwear</a></li>
-										<li><a href="">socks & hosiery</a></li>
-										<li><a href="">suits</a></li>
-										<li><a href="">sweaters</a></li>
-										<li><a href="">swimsuits</a></li>
-										<li><a href="">tops</a></li>
-										<li><a href="">all women's clothing</a></li>
+											<h3><a href="">women's clothing</a></h3>
+											
+											<li><a href="">activewear</a></li>
+											<li><a href="">blazers & jackets</a></li>
+											<li><a href="">dresses</a></li>
+											<li><a href="">intimates</a></li>
+											<li><a href="">jeans</a></li>
+											<li><a href="">outerwear</a></li>
+											<li><a href="">pants</a></li>
+											<li><a href="">shorts</a></li>
+											<li><a href="">skirts</a></li>
+											<li><a href="">sleepwear</a></li>
+											<li><a href="">socks & hosiery</a></li>
+											<li><a href="">suits</a></li>
+											<li><a href="">sweaters</a></li>
+											<li><a href="">swimsuits</a></li>
+											<li><a href="">tops</a></li>
+											<li><a href="">all women's clothing</a></li>
 
-									</ul>
-									
-									<a href=""><h3>extended sizing</h3></a>
-
-									<ul>
-
-										<li><a href="">juniors'</a></li>
-										<li><a href="">maternity</a></li>
-										<li><a href="">plus size</a></li>	
-
-									</ul>	
-
-								</div> <!-- end csj sublist col1 -->
-
-								<div class="csj_sublist_col2">
-
-									<a href=""><h3>men's clothing</h3></a>
-
-									<ul>
-
-										<li><a href="">activewear</a></li>
-										<li><a href="">blazers & vests</a></li>
-										<li><a href="">casual button downs</a></li>
-										<li><a href="">dress shirts</a></li>
-										<li><a href="">graphic tees</a></li>
-										<li><a href="">jeans</a></li>
-										<li><a href="">joggers</a></li>
-										<li><a href="">outerwear</a></li>
-										<li><a href="">pants</a></li>
-										<li><a href="">polos</a></li>
-										<li><a href="">shirts</a></li>
-										<li><a href="">shorts</a></li>
-										<li><a href="">sleepwear</a></li>
-										<li><a href="">socks</a></li>
-										<li><a href="">suits & suit separates</a></li>
-										<li><a href="">sweaters</a></li>
-										<li><a href="">sweatshirts & sweatpants</a></li>
-										<li><a href="">swimwear</a></li>
-										<li><a href="">tees & tanks</a></li>
-										<li><a href="">underwear</a></li>
-										<li><a href="">all men's clothing</a></li>
+										</ul>
 										
-
-									</ul>
-									
-								</div> <!-- end csj sublist col2 -->
-
-								<div class="csj_sublist_col3">
-
-									<a href=""><h3>baby & kids clothing</h3></a>
-
-									<ul class="baby_kids_clothing_list">
-
-										<li><a href="">girls' (4-18)</a></li>
-										<li><a href="">boys' (4-18)</a></li>
-										<li><a href="">toddler girls' (12M-5T)</a></li>
-										<li><a href="">toddler boys' (12M-5T)</a></li>
-										<li><a href="">baby (0-12M)</a></li>
-										<li><a href="">school uniforms</a></li>		
-
-									</ul>
-
-									<a href=""><h3>shoes</h3></a>
-
-									<ul class="shoes_list">
-
-										<li><a href="">women's</a></li>
-										<li><a href="">men's</a></li>
-										<li><a href="">girls'</a></li>
-										<li><a href="">boys'</a></li>
-										<li><a href="">toddler girls'</a></li>
-										<li><a href="">toddler boys'</a></li>
-										<li><a href="">baby</a></li>
-										<li><a href="">all shoes</a></li>
-
-									</ul>
-
-								</div> <!-- end csj sublist col3-->
-
-								<div class="csj_sublist_col4">
-
-									<a href=""><h3>all accessories</h3></a>
-
-									<a href=""><h3>women's accessories</h3></a>
+										<h3><a href="">extended sizing</a></h3>
 
 										<ul>
 
-											<li><a href="">handbags</a></li>
-											<li><a href="">hats, gloves & scarves</a></li>
-											<li><a href="">jewelery</a></li>
-											<li><a href="">sunglasses</a></li>
-											<li><a href="">wallets</a></li>
-											<li><a href="">watches</a></li>
-											<li><a href="">all women's accessories</a></li>
+											<li><a href="">juniors'</a></li>
+											<li><a href="">maternity</a></li>
+											<li><a href="">plus size</a></li>	
 
 										</ul>	
 
+									</div> <!-- end csj sublist col1 -->
 
-									<a href=""><h3>men's accessories</h3></a>
+									<div class="csj_sublist_col2">
 
-										<ul>
-
-											<li><a href="">bags & wallets</a></li>
-											<li><a href="">hats, gloves & scarves</a></li>
-											<li><a href="">ties, cufflinks & tieclips</a></li>
-											<li><a href="">watches</a></li>
-											<li><a href="">all men's accessories</a></li>
-
-										</ul>	
-
-
-									<a href=""><h3>kid's accessories</h3></a>
-
-									<a href=""><h3>featured deals</h3></a>
+										<h3><a href="">men's clothing</a></h3>
 
 										<ul>
 
-											<li><a href="">clothing & accessories clearance</a></li>
+											<li><a href="">activewear</a></li>
+											<li><a href="">blazers & vests</a></li>
+											<li><a href="">casual button downs</a></li>
+											<li><a href="">dress shirts</a></li>
+											<li><a href="">graphic tees</a></li>
+											<li><a href="">jeans</a></li>
+											<li><a href="">joggers</a></li>
+											<li><a href="">outerwear</a></li>
+											<li><a href="">pants</a></li>
+											<li><a href="">polos</a></li>
+											<li><a href="">shirts</a></li>
+											<li><a href="">shorts</a></li>
+											<li><a href="">sleepwear</a></li>
+											<li><a href="">socks</a></li>
+											<li><a href="">suits & suit separates</a></li>
+											<li><a href="">sweaters</a></li>
+											<li><a href="">sweatshirts & sweatpants</a></li>
+											<li><a href="">swimwear</a></li>
+											<li><a href="">tees & tanks</a></li>
+											<li><a href="">underwear</a></li>
+											<li><a href="">all men's clothing</a></li>
+											
+
+										</ul>
+										
+									</div> <!-- end csj sublist col2 -->
+
+									<div class="csj_sublist_col3">
+
+										<h3><a href="">baby & kids clothing</a></h3>
+
+										<ul class="baby_kids_clothing_list">
+
+											<li><a href="">girls' (4-18)</a></li>
+											<li><a href="">boys' (4-18)</a></li>
+											<li><a href="">toddler girls' (12M-5T)</a></li>
+											<li><a href="">toddler boys' (12M-5T)</a></li>
+											<li><a href="">baby (0-12M)</a></li>
+											<li><a href="">school uniforms</a></li>		
+
+										</ul>
+
+										<h3><a href="">shoes</a></h3>
+
+										<ul class="shoes_list">
+
+											<li><a href="">women's</a></li>
+											<li><a href="">men's</a></li>
+											<li><a href="">girls'</a></li>
+											<li><a href="">boys'</a></li>
+											<li><a href="">toddler girls'</a></li>
+											<li><a href="">toddler boys'</a></li>
+											<li><a href="">baby</a></li>
+											<li><a href="">all shoes</a></li>
+
+										</ul>
+
+									</div> <!-- end csj sublist col3-->
+
+									<div class="csj_sublist_col4">
+
+										<h3><a href="">all accessories</a></h3>
+
+										<h3><a href="">women's accessories</a></h3>
+
+											<ul>
+
+												<li><a href="">handbags</a></li>
+												<li><a href="">hats, gloves & scarves</a></li>
+												<li><a href="">jewelery</a></li>
+												<li><a href="">sunglasses</a></li>
+												<li><a href="">wallets</a></li>
+												<li><a href="">watches</a></li>
+												<li><a href="">all women's accessories</a></li>
+
+											</ul>	
+
+
+										<h3><a href="">men's accessories</a></h3>
+
+											<ul>
+
+												<li><a href="">bags & wallets</a></li>
+												<li><a href="">hats, gloves & scarves</a></li>
+												<li><a href="">ties, cufflinks & tieclips</a></li>
+												<li><a href="">watches</a></li>
+												<li><a href="">all men's accessories</a></li>
+
+											</ul>	
+
+
+										<h3><a href="">kid's accessories</a></h3>
+
+										<h3><a href="">featured deals</a></h3>
+
+											<ul>
+
+												<li><a href="">clothing & accessories clearance</a></li>
+												<li><a href="">shoes clearance</a></li>
+											
+											</ul>	
+
+									</div> <!-- end csj sublist col4 -->
+
+								</div> <!-- end csj_sublist -->
+
+
+							<li>baby & kids</li>
+
+								<div class="baby_sublist hover">
+
+									<div class="baby_sublist_col1">
+
+									<h3><a href="">baby</a></h3>
+
+										<ul>
+
+											<li><a href="">car seats</a></li>
+											<li><a href="">strollers</a></li>
+											<li><a href="">gear</a></li>
+											<li><a href="">nursery</a></li>
+											<li><a href="">cribs</a></li>
+											<li><a href="">baby carriers</a></li>
+											<li><a href="">baby toys</a></li>
+											<li><a href="">feeding</a></li>
+											<li><a href="">diapering</a></li>
+											<li><a href="">baby bath</a></li>
+											<li><a href="">health & safety</a></li>
+											<li><a href="">baby monitors</a></li>
+											<li><a href="">all baby</a></li>	
+
+										</ul>
+
+									</div><!--  end baby sublist col1	 -->
+
+									<div class="baby_sublist_col2">
+
+										<h3><a href="">baby & kids' clothing</a></h3>
+
+										<ul>
+											
+											<li><a href="">baby (0-12M)</a></li>
+											<li><a href="">toddler girls' (2T-5T)</a></li>
+											<li><a href="">toddler boys' (2T-5T)</a></li>
+											<li><a href="">girls'</a></li>
+											<li><a href="">boys'</a></li>
+
+										</ul>
+
+										<a href=""><h3>baby & kids' shoes</h3></a>
+
+										<ul>
+											<li><a href="">baby</a></li>
+											<li><a href="">toddler girls'</a></li>
+											<li><a href="">toddler boys'</a></li>
+											<li><a href="">girls'</a></li>
+											<li><a href="">boys'</a></li>
+
+										</ul>
+
+										<a href=""><h3>back to school</h3></a>
+
+										<ul>
+											<li><a href="">uniforms</a></li>
+											<li><a href="">backpacks</a></li>
+											<li><a href="">lunch kits</a></li>
+											<li><a href="">school supplies</a></li>
+											<li><a href="">all back to school</a></li>
+
+										</ul>
+
+									</div> <!-- end baby sublist col2 -->
+
+									<div class="baby_sublist_col3">
+
+										<h3><a href="">kids' home</a></h3>
+
+										<ul>
+											
+											<li><a href="">bedding</a></li>
+											<li><a href="">kids' furniture</a></li>
+											<li><a href="">decor</a></li>
+											<li><a href="">bath</a></li>
+											<li><a href="">all kids' home</a></li>
+
+										</ul>
+
+										<a href=""><h3>kids' electronics</h3></a>
+
+										<a href=""><h3>kids' bikes</h3></a>
+
+										<a href=""><h3>toys</h3></a>
+
+										<a href=""><h3>favorite characters</h3></a>
+
+										<a href=""><h3>more to explore</h3></a>
+
+										<ul>
+											
+											<li><a href="">baby registry</a></li>
+											<li><a href="">baby deals</a></li>
+											<li><a href="">baby clearance</a></li>
+											<li><a href="">clothing clearance</a></li>
 											<li><a href="">shoes clearance</a></li>
+											<li><a href="">subscriptions</a></li>
+
+										</ul>
 										
+									</div> <!-- end baby sublist col3 -->
+
+								</div> <!-- end baby sublist -->
+
+
+							<li>home, furniture & patio</li>
+
+								<div class="home_sublist hover">
+
+									<div class="home_sublist_col1">
+
+										<h3><a href="">home</a></h3>
+
+										<ul>
+											
+											<li><a href="">bath</a></li>
+											<li><a href="">bedding</a></li>
+											<li><a href="">curtains & blinds</a></li>
+											<li><a href="">dining & entertaining</a></li>
+											<li><a href="">furniture</a></li>
+											<li><a href="">home appliances</a></li>
+											<li><a href="">home decor</a></li>
+											<li><a href="">home improvement</a></li>
+											<li><a href="">kids' home</a></li>
+											<li><a href="">kitchen</a></li>
+											<li><a href="">lamps & lighting</a></li>
+											<li><a href="">luggage</a></li>
+											<li><a href="">patio & garden</a></li>
+											<li><a href="">rugs</a></li>
+											<li><a href="">smart home</a></li>
+											<li><a href="">storage & organization</a></li>
+											<li><a href="">vacuums & floor care</a></li>
+											<li><a href="">all home</a></li>
+
+										</ul>
+
+										<h3><a href="">shop by style</a></h3>
+
+										<ul>
+											
+											<li><a href="">industrial home</a></li>
+											<li><a href="">modern home</a></li>
+											<li><a href="">traditional home</a></li>
+											<li><a href="">all home styles</a></li>
+
+										</ul>
+
+									</div> <!-- end home sublist col1 -->
+
+									<div class="home_sublist_col2">
+
+										<h3><a href="">furniture</a></h3>
+
+										<ul>
+
+											<li><a href="">accent furniture</a></li>
+											<li><a href="">bathroom</a></li>
+											<li><a href="">bedroom</a></li>
+											<li><a href="">bookcases</a></li>
+											<li><a href="">chairs</a></li>
+											<li><a href="">custom furniture</a></li>
+											<li><a href="">entryway</a></li>
+											<li><a href="">home office</a></li>
+											<li><a href="">kids' furniture</a></li>
+											<li><a href="">kitchen & dining</a></li>
+											<li><a href="">living room</a></li>
+											<li><a href="">lounge seating</a></li>
+											<li><a href="">TV stands</a></li>
+											<li><a href="">all furniture</a></li>
+
 										</ul>	
 
-								</div> <!-- end csj sublist col4 -->
+									</div> <!-- end home sublist col2 -->
 
-							</div> <!-- end csj_sublist -->
-
-
-						<li>baby & kids</li>
-
-							<div class="baby_sublist">
-
-								<div class="baby_sublist_col1">
-
-								<a href=""><h3>baby</h3></a>
-
-									<ul>
-
-										<li><a href="">car seats</a></li>
-										<li><a href="">strollers</a></li>
-										<li><a href="">gear</a></li>
-										<li><a href="">nursery</a></li>
-										<li><a href="">cribs</a></li>
-										<li><a href="">baby carriers</a></li>
-										<li><a href="">baby toys</a></li>
-										<li><a href="">feeding</a></li>
-										<li><a href="">diapering</a></li>
-										<li><a href="">baby bath</a></li>
-										<li><a href="">health & safety</a></li>
-										<li><a href="">baby monitors</a></li>
-										<li><a href="">all baby</a></li>	
-
-									</ul>
-
-								</div><!--  end baby sublist col1	 -->
-
-								<div class="baby_sublist_col2">
-
-									<a href=""><h3>baby & kids' clothing</h3></a>
-
-									<ul>
+									<div class="home_sublist_col3">
 										
-										<li><a href="">baby (0-12M)</a></li>
-										<li><a href="">toddler girls' (2T-5T)</a></li>
-										<li><a href="">toddler boys' (2T-5T)</a></li>
-										<li><a href="">girls'</a></li>
-										<li><a href="">boys'</a></li>
-
-									</ul>
-
-									<a href=""><h3>baby & kids' shoes</h3></a>
-
-									<ul>
-										<li><a href="">baby</a></li>
-										<li><a href="">toddler girls'</a></li>
-										<li><a href="">toddler boys'</a></li>
-										<li><a href="">girls'</a></li>
-										<li><a href="">boys'</a></li>
-
-									</ul>
-
-									<a href=""><h3>back to school</h3></a>
-
-									<ul>
-										<li><a href="">uniforms</a></li>
-										<li><a href="">backpacks</a></li>
-										<li><a href="">lunch kits</a></li>
-										<li><a href="">school supplies</a></li>
-										<li><a href="">all back to school</a></li>
-
-									</ul>
-
-								</div> <!-- end baby sublist col2 -->
-
-								<div class="baby_sublist_col3">
-
-									<a href=""><h3>kids' home</h3></a>
-
-									<ul>
-										
-										<li><a href="">bedding</a></li>
-										<li><a href="">kids' furniture</a></li>
-										<li><a href="">decor</a></li>
-										<li><a href="">bath</a></li>
-										<li><a href="">all kids' home</a></li>
-
-									</ul>
-
-									<a href=""><h3>kids' electronics</h3></a>
-
-									<a href=""><h3>kids' bikes</h3></a>
-
-									<a href=""><h3>toys</h3></a>
-
-									<a href=""><h3>favorite characters</h3></a>
-
-									<a href=""><h3>more to explore</h3></a>
-
-									<ul>
-										
-										<li><a href="">baby registry</a></li>
-										<li><a href="">baby deals</a></li>
-										<li><a href="">baby clearance</a></li>
-										<li><a href="">clothing clearance</a></li>
-										<li><a href="">shoes clearance</a></li>
-										<li><a href="">subscriptions</a></li>
-
-									</ul>
-									
-								</div> <!-- end baby sublist col3 -->
-
-							</div> <!-- end baby sublist -->
-
-
-						<li>home, furniture & patio</li>
-
-							<div class="home_sublist">
-
-								<div class="home_sublist_col1">
-
-									<a href=""><h3>home</h3></a>
-
-									<ul>
-										
-										<li><a href="">bath</a></li>
-										<li><a href="">bedding</a></li>
-										<li><a href="">curtains & blinds</a></li>
-										<li><a href="">dining & entertaining</a></li>
-										<li><a href="">furniture</a></li>
-										<li><a href="">home appliances</a></li>
-										<li><a href="">home decor</a></li>
-										<li><a href="">home improvement</a></li>
-										<li><a href="">kids' home</a></li>
-										<li><a href="">kitchen</a></li>
-										<li><a href="">lamps & lighting</a></li>
-										<li><a href="">luggage</a></li>
-										<li><a href="">patio & garden</a></li>
-										<li><a href="">rugs</a></li>
-										<li><a href="">smart home</a></li>
-										<li><a href="">storage & organization</a></li>
-										<li><a href="">vacuums & floor care</a></li>
-										<li><a href="">all home</a></li>
-
-									</ul>
-
-									<a href=""><h3>shop by style</h3></a>
-
-									<ul>
-										
-										<li><a href="">industrial home</a></li>
-										<li><a href="">modern home</a></li>
-										<li><a href="">traditional home</a></li>
-										<li><a href="">all home styles</a></li>
-
-									</ul>
-
-								</div> <!-- end home sublist col1 -->
-
-								<div class="home_sublist_col2">
-
-									<a href=""><h3>furniture</h3></a>
-
-									<ul>
-
-										<li><a href="">accent furniture</a></li>
-										<li><a href="">bathroom</a></li>
-										<li><a href="">bedroom</a></li>
-										<li><a href="">bookcases</a></li>
-										<li><a href="">chairs</a></li>
-										<li><a href="">custom furniture</a></li>
-										<li><a href="">entryway</a></li>
-										<li><a href="">home office</a></li>
-										<li><a href="">kids' furniture</a></li>
-										<li><a href="">kitchen & dining</a></li>
-										<li><a href="">living room</a></li>
-										<li><a href="">lounge seating</a></li>
-										<li><a href="">TV stands</a></li>
-										<li><a href="">all furniture</a></li>
-
-									</ul>	
-
-								</div> <!-- end home sublist col2 -->
-
-								<div class="home_sublist_col3">
-									
-									<a href=""><h3>patio & garden</h3></a>
-
+										<h3><a href="">patio & garden</a></h3>
 										<ul>
 
 											<li><a href="">fire pits & heaters</a></li>
@@ -448,7 +454,7 @@
 
 										</ul>	
 
-									<a href=""><h3>more to explore</h3></a>
+										<h3><a href="">more to explore</a></h3>
 
 										<ul>
 
@@ -462,161 +468,1134 @@
 											<li><a href="">cooking.com</a></li>
 
 										</ul>	
-	
-								</div> <!-- end home sublist col3 -->
-								
-							</div> <!-- end home sublist -->
+
+									</div> <!-- end home sublist col3 -->
+									
+								</div> <!-- end home sublist -->
 
 
-						<li>electronics & office</li>
+							<li>electronics & office</li>
 
-							<div class="electronics_sublist">
+								<div class="electronics_sublist hover">
 
-								<div class="electronics_sublist_col1">
+									<div class="electronics_sublist_col1">
 
-									<a href=""><h3>electronics</h3></a>
+										<h3><a href="">electronics</a></h3>
 
-									<ul>
+										<ul>
 
-										<li><a href="">cameras & camcorders</a></li>
-										<li><a href="">cell phones</a></li>
-										<li><a href="">computers, laptops, & networking</a></li>
-										<li><a href="">GPS & navigation</a></li>
-										<li><a href="">headphones</a></li>
-										<li><a href="">instruments & karaeoke</a></li>
-										<li><a href="">iPad & tablets</a></li>
-										<li><a href="">iPod & audio</a></li>
-										<li><a href="">kids' electronics</a></li>
-										<li><a href="">smart home</a></li>
-										<li><a href="">streaming devices</a></li>
-										<li><a href="">TVs & home theater</a></li>
-										<li><a href="">video games</a></li>
-										<li><a href="">wearable technology</a></li>
-										<li><a href="">all electronics</a></li>
+											<li><a href="">cameras & camcorders</a></li>
+											<li><a href="">cell phones</a></li>
+											<li><a href="">computers, laptops, & networking</a></li>
+											<li><a href="">GPS & navigation</a></li>
+											<li><a href="">headphones</a></li>
+											<li><a href="">instruments & karaeoke</a></li>
+											<li><a href="">iPad & tablets</a></li>
+											<li><a href="">iPod & audio</a></li>
+											<li><a href="">kids' electronics</a></li>
+											<li><a href="">smart home</a></li>
+											<li><a href="">streaming devices</a></li>
+											<li><a href="">TVs & home theater</a></li>
+											<li><a href="">video games</a></li>
+											<li><a href="">wearable technology</a></li>
+											<li><a href="">all electronics</a></li>
 
-									</ul>	
+										</ul>	
 
-								</div> <!--  end electronics sublist col1 -->
+									</div> <!--  end electronics sublist col1 -->
 
-								<div class="electronics_sublist_col2">
+									<div class="electronics_sublist_col2">
 
-									<a href=""><h3>TVs & home theater</h3></a>
+										<h3><a href="">TVs & home theater</a></h3>
 
-									<ul>
+										<ul>
 
-										<li><a href="">TVs</a></li>
-										<li><a href="">streaming devices</a></li>
-										<li><a href="">Blu-ray & DVD players</a></li>
-										<li><a href="">home theater audio</a></li>
-										<li><a href="">accessories</a></li>
-										<li><a href="">all TVs & home theater</a></li>
-						
-									</ul>	
+											<li><a href="">TVs</a></li>
+											<li><a href="">streaming devices</a></li>
+											<li><a href="">Blu-ray & DVD players</a></li>
+											<li><a href="">home theater audio</a></li>
+											<li><a href="">accessories</a></li>
+											<li><a href="">all TVs & home theater</a></li>
+							
+										</ul>	
 
-									<a href=""><h3>iPad & tablets</h3></a>
+										<h3><a href="">iPad & tablets></a></h3>
 
-									<ul>
+										<ul>
 
-										<li><a href="">iPad</a></li>
-										<li><a href="">tablets</a></li>
-										<li><a href="">accessories</a></li>
-										<li><a href="">all iPad & tablets</a></li>
+											<li><a href="">iPad</a></li>
+											<li><a href="">tablets</a></li>
+											<li><a href="">accessories</a></li>
+											<li><a href="">all iPad & tablets</a></li>
 
-									</ul>
+										</ul>
 
-								</div>	<!-- end electronics sublist col2 -->
-								
-								<div class="electronics_sublist_col3">
+									</div>	<!-- end electronics sublist col2 -->
+									
+									<div class="electronics_sublist_col3">
 
-									<a href=""><h3>school & office</h3></a>
+										<h3><a href="">school & office</a></h3>
 
-									<ul>
+										<ul>
 
-										<li><a href="">calendars, planners & journals</a></li>
-										<li><a href="">filing</a></li>
-										<li><a href="">ink & toner</a></li>
-										<li><a href="">office furniture</a></li>
-										<li><a href="">organization</a></li>
-										<li><a href="">paper</a></li>
-										<li><a href="">printers & scanners</a></li>
-										<li><a href="">tools & equipment</a></li>
-										<li><a href="">writing</a></li>
-										<li><span><a href="">all school & office</a></span></li>
+											<li><a href="">calendars, planners & journals</a></li>
+											<li><a href="">filing</a></li>
+											<li><a href="">ink & toner</a></li>
+											<li><a href="">office furniture</a></li>
+											<li><a href="">organization</a></li>
+											<li><a href="">paper</a></li>
+											<li><a href="">printers & scanners</a></li>
+											<li><a href="">tools & equipment</a></li>
+											<li><a href="">writing</a></li>
+											<li><span><a href="">all school & office</a></span></li>
 
-									</ul>
-
-									<a href=""><h3>featured deals</h3></a>
-
-									<ul>
-
-										<li><a href="">clearance</a></li>
-										<li><a href="">weekly deals</a></li>
-										<li><a href="">store pickup</a></li>
-
-									</ul>
-
-								</div> <!-- end electronics sublist col2 -->
-
-							</div> <!-- end electronics sublist -->
+										</ul>
 
 
-						<li>toys & video games</li>	
+										<h3><a href="">featured deals</a></h3>
 
+										<ul>
+
+											<li><a href="">clearance</a></li>
+											<li><a href="">weekly deals</a></li>
+											<li><a href="">store pickup</a></li>
+
+										</ul>
+
+									</div> <!-- end electronics sublist col3 -->
+
+								</div> <!-- end electronics sublist -->
+
+							<li>toys & video games</li>	
+
+								<div class="toys_sublist hover">
+
+									<div class="toys_sublist_col1">
+
+										<h3><a href="">toys</a></h3>
+
+										<ul>
+
+											<li><a href="">action figures & playsets</a></li>
+											<li><a href="">arts & crafts</a></li>
+											<li><a href="">building sets & blocks</a></li>
+											<li><a href="">collectors' toys</a></li>
+											<li><a href="">dolls</a></li>
+											<li><a href="">dress up & pretend play</a></li>
+											<li><a href="">games & puzzles</a></li>
+											<li><a href="">learning toys</a></li>
+											<li><a href="">specialty toys</a></li>
+											<li><a href="">stuffed animals & plush toys</a></li>
+											<li><a href="">toy blasters</a></li>
+											<li><a href="">vehicles & remote control</a></li>
+											<li><span><a href="">all toys</a></span></li>
+
+										</ul>
+
+										<h3><a href="">shop by age</a></h3>
+
+										<ul>
+
+											<li><a href="">baby (0-12M)</a></li>
+											<li><a href="">infant (12M-24M)</a></li>
+											<li><a href="">toddler</a></li>
+											<li><a href="">3-4 years</a></li>
+											<li><a href="">5-7 years</a></li>
+											<li><a href="">8-11 years</a></li>
+											<li><a href="">12+ years</a></li>
+											
+										</ul>
+
+									</div> <!-- end toys_sublist_col1 -->	
+										
+									<div class="toys_sublist_col2">
+
+										<h3><a href="">outdoor toys</a></h3>
+
+										<ul>
+
+											<li><a href="">bikes</a></li>
+											<li><a href="">bouncers</a></li>
+											<li><a href="">pools & waterslides</a></li>
+											<li><a href="">riding toys</a></li>
+											<li><a href="">scooters, skateboards, & skates</a></li>
+											<li><a href="">swingsets, slides, & climbers</a></li>
+											<li><a href="">trampolines</a></li>
+											<li><a href="">all outdoor toys</a></li>
+
+										</ul>
+
+										<h3><a href="">characters & brands</a></h3>	
+
+										<ul>
+
+											<li><a href="">Avengers</a></li>
+											<li><a href="">Barbie</a></li>
+											<li><a href="">Disney Frozen</a></li>
+											<li><a href="">LEGO</a></li>
+											<li><a href="">NERF</a></li>
+											<li><a href="">Our Generation</a></li>
+											<li><a href="">Star Wars</a></li>
+											<li><a href=""><span>all characters & brands</span></a></li>
+
+										</ul>
+
+										<h3><a href="">shop by gender</a></h3>	
+
+										<ul>
+											
+											<li><a href="">boys' toys</a></li>
+											<li><a href="">girls' toys</a></li>
+										
+										</ul>
+
+									</div>	<!-- end toys sublist col2 -->
+
+									<div class="toys_sublist_col3">
+
+										<h3><a href="">video games</a></h3>
+
+										<ul>
+
+											<li><a href="">PlayStation 4</a></li>
+											<li><a href="">Xbox One</a></li>
+											<li><a href="">PlayStation 3</a></li>
+											<li><a href="">Xbox 360</a></li>
+											<li><a href="">Nintendo 3DS</a></li>
+											<li><a href="">Nintendo Wii U</a></li>
+											<li><a href="">gaming figures</a></li>
+											<li><a href="">gaming cards</a></li>
+											<li><a href="">accessories</a></li>
+											<li><a href=""><span>all video games</span></a></li>
+
+										</ul>
+
+										<h3><a href="">video games</a></h3>
+
+										<ul>
+
+											<li><a href="">toys clearance</a></li>	
+
+										</ul>
+
+									</div> <!-- end toys sublist col3 -->
+
+								</div> <!-- end toys sublist -->
+
+							<li>movies, music & books</li>
+
+								<div class="mmb_sublist hover">
+
+									<div class="mmb_sublist_col1">
+
+										<h3><a href="">movies</a></h3>
+
+										<ul>
+
+											<li><a href="">new</a></li>
+											<li><a href="">pre-orders</a></li>
+											<li><a href="">best sellers</a></li>
+											<li><a href="">Only at Target</a></li>
+											<li><a href="">Blu-ray</a></li>
+											<li><a href="">kids' & family</a></li>
+											<li><a href=""><span>all movies</span></a></li>
+										
+										</ul>
+
+										<h3><a href="">TV shows</a></h3>
+
+										<ul>
+
+											<li><a href="">new</a></li>
+											<li><a href="">pre-orders</a></li>
+											<li><a href="">best sellers</a></li>
+											<li><a href="">Blu-ray</a></li>
+											<li><a href="">kids' & family</a></li>
+											<li><a href="">all TV shows</a></li>
+											
+										</ul>
+
+									</div> <!-- end mmb sublist col1	 -->	
+
+									<div class="mmb_sublist_col2">
+
+										<h3><a href="">music</a></h3>	
+
+										<ul>	
+
+											<li><a href="">new</a></li>
+											<li><a href="">pre-orders</a></li>
+											<li><a href="">best sellers</a></li>
+											<li><a href="">Only at Target</a></li>
+											<li><a href="">Beats Music for Target</a></li>
+											<li><a href="">kids' music</a></li>
+											<li><a href="">vinyl</a></li>
+											<li><a href=""><span>all music</span></a></li>
+
+										</ul>
+
+										<h3><a href="">books</a></h3>
+
+										<ul>	
+
+											<li><a href="">new</a></li>
+											<li><a href="">pre-orders</a></li>
+											<li><a href="">best sellers</a></li>
+											<li><a href="">Only at Target</a></li>
+											<li><a href="">Target Club Picks</a></li>
+											<li><a href="">New York Times Bestsellers</a></li>
+											<li><a href="">cooking, food & wine</a></li>
+											<li><a href="">fiction & literature</a></li>
+											<li><a href="">kids' books</a></li>
+											<li><a href="">teens' books</a></li>
+											<li><a href="">parenting</a></li>
+											<li><a href=""><span>all books</span></a></li>
+
+										</ul>
+
+									</div>	<!-- end mmb sublist col2 -->
+
+									<div class="mmb_sublist_col3">
+
+										<h3><a href="">related categories</a></h3>
+
+										<ul>
+
+											<li><a href="">Blu-ray & DVD players</a></li>
+											<li><a href="">musical instruments & karaeoke</a></li>
+											<li><a href="">iTunes & music gift cards</a></li>	
+
+										</ul>
+
+									</div> <!-- end mmb sublist col3 -->
+
+								</div> <!-- end mmb sublist -->
+
+							<li>sports, fitness & outdoors</li>
+
+								<div class="sports_sublist hover">
+
+									<div class="sports_sublist_col1">
+
+										<h3><a href="">sports & outdoors</a></h3>
+
+										<ul>
+
+											<li><a href="">bikes</a></li>
+											<li><a href="">boating & water sports</a></li>
+											<li><a href="">camping & outdoors</a></li>
+											<li><a href="">coolers & water bottles</a></li>
+											<li><a href="">exercise & fitness</a></li>
+											<li><a href="">fan shop</a></li>
+											<li><a href="">game shop</a></li>
+											<li><a href="">helmets & pads</a></li>
+											<li><a href="">pools & water slides</a></li>
+											<li><a href="">outdoor toys</a></li>
+											<li><a href="">scooters, skateboards & skates</a></li>
+											<li><a href="">sports equipment</a></li>
+											
+											<li><a href="">wearable tech</a></li>
+											<li><a href="">all sports & outdoors</a></li>
+
+										</ul>
+										
+										<h3><a href="">fan shop</a></h3>
+
+										<ul>
+											
+											<li><a href="">NFL</a></li>
+											<li><a href="">NCAA</a></li>
+											<li><a href="">MLB</a></li>
+											<li><a href="">NHL</a></li>
+											<li><a href="">NBA</a></li>
+											<li><a href=""><span>all fan shop</span></a></li>
+
+										</ul>
+
+									</div> <!-- end sports sublist col1 -->
+
+									<div class="sports_sublist_col2">
+										
+										<h3><a href="">exercise & fitness</a></h3>
+
+										<ul>
+											
+											<li><a href="">accessories</a></li>
+											<li><a href="">ellipticals & steppers</a></li>
+											<li><a href="">exercise bikes</a></li>
+											<li><a href="">fitness trackers</a></li>
+											<li><a href="">treadmills</a></li>
+											<li><a href="">weight training</a></li>
+											<li><a href="">yoga & pilates</a></li>
+											<li><a href=""><span>all exercise & fitness</span></a></li>
+
+										</ul>
+
+										<h3><a href="">bikes</a></h3>
+
+										<ul>
+
+											<li><a href="">accessories</a></li>
+											<li><a href="">cruisers</a></li>
+											<li><a href="">hybrid & comfort</a></li>
+											<li><a href="">kids' bikes</a></li>
+											<li><a href=""><span>all bikes</span></a></li>
+											
+										</ul>
+
+										<h3><a href="">sports equipment</a></h3>
+
+										<ul>
+
+											<li><a href="">baseball & softball</a></li>
+											<li><a href="">basketball</a></li>
+											<li><a href="">football</a></li>
+											<li><a href="">golf</a></li>
+											<li><a href="">soccer</a></li>
+											<li><a href=""><span>all sports equipment</span></a></li>
+											
+										</ul>
+
+									</div> <!-- end sports sublist col2 -->
+
+									<div class="sports_sublist_col3">
+
+										<h3><a href="">camping & outdoors</a></h3>
+
+										<ul>
+											<li><a href="">airbeds</a></li>
+											<li><a href="">camp furniture</a></li>
+											<li><a href="">camp kitchen</a></li>
+											<li><a href="">canopies & shelters</a></li>
+											<li><a href="">coolers & water bottles</a></li>
+											<li><a href="">sleeping bags & bedding</a></li>
+											<li><a href="">tent</a></li>
+											<li><a href=""><span>all camping & outdoors</span></a></li>
+											
+										</ul>
+
+										<h3><a href="">pools & water slides</a></h3>
+
+										<ul>
+											<li><a href="">floats & tubes</a></li>
+											<li><a href="">hot tubs & saunas</a></li>
+											<li><a href="">learn to swim</a></li>
+											<li><a href="">maintenance & cleaning</a></li>
+											<li><a href="">pool games</a></li>
+											<li><a href="">swimming pools</a></li>
+											<li><a href="">water slides</a></li>
+											<li><a href=""><span>all pools & water slides</span></a></li>
+											
+										</ul>
+
+										<h3><a href="">featured deals</a></h3>
+
+										<ul>
+											<li><a href="">weekly deals</a></li>
+
+										</ul>	
+
+									</div> <!-- end sports sublist col3 -->
+									
+								</div> <!-- end sports sublist -->
+
+							<li>beauty, health & pharmacy</li>
+
+
+							<li>grocery, household & pets</li>
+
+
+							<li>gifts, parties & holiday</li>
+
+
+							<li>clearance & deals</li>
+
+
+							<li>outdoor living</li>
+
+
+							<li>all categories</li>	
 							
 
+						</ul> <!-- end shop all categories list -->
+					
 
-						<li>movies, music & books</li>
+				</div>	<!-- end shop all categories drop down -->
 
-
-						<li>sports, fitness & outdoors</li>
-
-
-						<li>beauty, health & pharmacy</li>
-
-
-						<li>grocery, household & pets</li>
-
-
-						<li>gifts, parties & holiday</li>
-
-
-						<li>clearance & deals</li>
-
-
-						<li>outdoor living</li>
-
-
-						<li>all categories</li>	
+				<div class="primary_searchbar clearfix">
+					
+					<form>
 						
+						<select>
+						  
+						  	<option value="all_categories">shop all</option>
+						  	<option value="baby">baby</option>
+						  	<option value="beauty">beauty</option>
+							<option value="clearance">clearance</option>
+							<option value="clothing">clothing</option>
+							<option value="electronics">electronics</option>
+							<option value="entertainment">entertainment</option>
+							<option value="furniture">furniture</option>
+							<option value="giftcards">giftcards</option>
+							<option value="grocery">grocery & essentials</option>
+							<option value="health">health</option>
+							<option value="home">home</option>
+							<option value="household_essentials">household essentials</option>
+							<option value="party_supplies">party supplies & holidays</option>
+							<option value="patio">patio & garden</option>
+							<option value="pets">pets</option>
+							<option value="shoes">shoes</option>
+							<option value="sports">sports & outdoors</option>
+							<option value="toys">toys</option>
+							<option value="video">video</option>
+						
+						</select>
+
+						<input class="search_field" type="search" value="">
+						<button><img src="img/magnifying_glass.png"></button>
+					
+					</form>
+
+					<div class="shopping_cart">
+
+						<h4>0 in your cart</h4>
+
+						<a href=""><img src="img/shopping_cart_icon.png"></a>
+							
+					</div>	
+
+				</div> <!-- end primary search bar -->
+
+			</div> <!-- end mini header	 -->
+
+		</header> <!-- End header -->
+
+			<div class="wrapper clearfix">
+
+			<div class="main_body clearfix">
+
+				<div class="free_shipping">
+
+					<p>this week only. <span>free shipping</span> on every order.<a href=""> view details.</a></p>	
+
+				</div>
+
+				<div class="page_title">
+
+					<h4>Target/sports & outdoors</h4>
+					<h1>sports & outdoors</h1>
+					
+				</div>
+
+				<nav class="main_navigation">
+
+					<ul>
+
+						<li><span>shop categories</span></li>
+						<li><a href="">bikes</a></li>
+						<li><a href="">boating & water sports</a></li>
+						<li><a href="">camping & outdoors</a></li>
+						<li><a href="">coolers & water bottles</a></li>
+						<li><a href="">exercise & fitness</a></li>
+						<li><a href="">game room</a></li>
+						<li><a href="">golf</a></li>
+						<li><a href="">helmets & pads</a></li>
+						<li><a href="">pools & water slides</a></li>
+						<li><a href="">outdoor toys</a></li>
+						<li><a href="">scooters, skateboards & skates</a></li>
+						<li><a href="">sports equipment</a></li>	
 
 					</ul>
+
+					<ul>
+
+						<li><span>featured deals</span></li>
+						<li><a href="">weekly deals</a></li>
+						<li><a href="">store pickup eligible</a></li>
+					
+					</ul>	
+					
+					<ul>
+
+						<li><span>featured deals</span></li>
+						<li><a href="">NFL</a></li>
+						<li><a href="">NCAA</a></li>
+						<li><a href="">MLB</a></li>
+						<li><a href="">NHL</a></li>
+						<li><a href="">NBA</a></li>
+	
+					</ul>
+
+					<ul>
+
+						<li><span>shop by brand</span></li>
+						<li><a href="">Callaway</a></li>
+						<li><a href="">Coleman</a></li>
+						<li><a href="">Franklin</a></li>
+						<li><a href="">Gaiam</a></li>
+						<li><a href="">Huffy</a></li>
+						<li><a href="">Pro Merch</a></li>
+						<li><a href="">Razor</a></li>
+						<li><a href="">Schwinn</a></li>
+						<li><a href="">Speedo</a></li>
+						<li><a href="">Wilson</a>
+
+					</ul>		
+
+				</nav> <!-- End main navigation -->
+
+				<div class="categories clearfix">
+
+					<div class="categories_row1">
+
+						<div class="bikes">
+						
+							<a href=""><img src="img/c_bike.png" alt=""></a>
+
+							<br>
+
+							<h2><a href="">bikes</a></h2>
+
+							<ul class="bike hover">
+
+								<li><a href=""><span>bikes & accessories</span></a></li>
+								<li><a href="">cruiser</a></li>
+								<li><a href="">hybrid & comfort</a></li>
+								<li><a href="">road & fixed gear</a></li>
+								<li><a href="">mountain & fat tire</a></li>
+								<li><a href="">kids' bikes</a></li>	
+								<li><a href="">bike accessories</a></li>
+								<li><a href="">helmets & protective gear</a></li>	
+							</ul>
+
+						</div> <!-- end bikes category -->
+
+						<div class="boating">
+
+							<a href=""><img src="img/c_watersports.png" alt=""></a>
+
+							<br>
+
+							<h2><a href="">boating &<br> watersports</a></h2>
+
+							<ul class="boating hover">
+
+								<li><a href=""><span>boating & water sports</span></a></li>
+								<li><a href="">stand-up paddleboards</a></li>
+								<li><a href="">kayaks</a></li>
+								<li><a href="">inflatable boats & rafts</a></li>
+								<li><a href="">towables & bodyboards</a></li>
+								<li><a href="">life vests & PFDs</a></li>
+								<li><a href="">boat accessories</a></li>
+								
+							</ul>
+
+						</div> <!-- end boating category -->
+
+						<div class="camping">
+
+							<a href=""><img src="img/c_camping.png"></a>
+
+							<br>
+
+							<h2><a href="">camping<br> & outdoors</a></h2>
+
+							<ul class="camping hover">
+
+								<li><a href=""><span>camping & outdoors</span></a></li>
+								<li><a href="">airbeds</a></li>
+								<li><a href="">tents</a></li>
+								<li><a href="">canopies & shelters</a></li>
+								<li><a href="">sleeping bags</a></li>
+								<li><a href="">camp furniture</a></li>
+								<li><a href="">camp kitchen</a></li>
+								<li><a href="">camp accessories</a></li>
+								<li><a href="">binoculars & optics</a></li>
+								
+							</ul>
+							
+						</div> <!-- end camping div --> 	
+
+						<div class="coolers">
+
+							<a href=""><img src="img/c_coolers.png" alt=""></a>
+
+							<br>
+
+							<h2><a href="">coolers &<br> water bottles</a></h2>
+
+							<ul class="coolers hover">
+
+								<li><a href=""><span>coolers & water bottles</span></a></li>
+								<li><a href="">coolers</a></li>
+								<li><a href="">water bottles</a></li>
+								<li><a href="">lunch bags</a></li>
+								<li><a href="">picnic</a></li>
+
+							</ul>
+							
+
+						</div> <!-- end coolers div -->
+
+					</div> <!-- end categories row 1 -->
+
+					<div class="categories_row2">
+
+						<div class="exercise">
+						
+							<a href=""><img src="img/c_exercise.png" alt=""></a>
+
+							<br>
+
+							<h2><a href="">exercise &<br>fitness</a></h2>
+
+							<ul class="exercise hover">
+
+								<li><a href=""><span>exercise & fitness</span></a></li>
+								<li><a href="">treadmills</a></li>
+								<li><a href="">ellipticals & steppers</a></li>
+								<li><a href="">exercise bikes</a></li>
+								<li><a href="">rowing machines</a></li>
+								<li><a href="">yoga & pilates</a></li>	
+								<li><a href="">cross training fitness</a></li>
+								<li><a href="">weight training</a></li>	
+								<li><a href="">wearable tech & trackers</a></li>
+							</ul>
+
+						</div> <!-- end exercise category -->
+
+						<div class="fanshop">
+
+							<a href=""><img src="img/c_fanshop.png" alt=""></a>
+
+							<br>
+
+							<h2><a href="">fan shop</a></h2>
+
+							<ul class="fanshop hover">
+
+								<li><a href=""><span>fan shop</span></a></li>
+								<li><a href="">NFL</a></li>
+								<li><a href="">NCAA</a></li>
+								<li><a href="">MLB</a></li>
+								<li><a href="">NHL</a></li>
+								<li><a href="">NBA</a></li>
+								
+							</ul>
+
+						</div> <!-- end boating category -->
+
+						<div class="gameroom">
+
+							<a href=""><img src="img/c_gameroom.png" alt=""></a>
+
+							<br>
+
+							<h2><a href="">game room</a></h2>
+
+							<ul class="gameroom hover">
+
+								<li><a href=""><span>game room & leisure sports</span></a></li>
+								<li><a href="">airhockey</a></li>
+								<li><a href="">billiards</a></li>
+								<li><a href="">darts</a></li>
+								<li><a href="">foosball</a></li>
+								<li><a href="">poker & casino</a></li>
+								<li><a href="">table tennis</a></li>
+								<li><a href="">table top &
+								<br> multi-game tables</a></li>
+								
+							</ul>
+							
+						</div> <!-- end gameroom div --> 	
+
+						<div class="outdoor">
+
+							<a href=""><img src="img/c_outdoor.png" alt=""></a>
+
+							<br>
+
+							<h2><a href="">outdoor toys<br> & lawn games</a></h2>
+
+							<ul class="outdoor hover">
+
+								<li><a href=""><span>outdoor toys<br>& lawn games</span></a></li>
+								<li><a href="">swing sets</a></li>
+								<li><a href="">lawn games</a></li>
+								<li><a href="">slackline kits</a></li>
+								<li><a href="">zipline kits</a></li>
+								<li><a href="">trampolines</a></li>
+								<li><a href="">bounce houses</a></li>
+								<li><a href="">sand boxes</a></li>
+								<li><a href="">toy blasters</a></li>
+
+							</ul>
+
+						</div> <!-- end outdoor div -->
+
+					</div> <!-- end categories row 2 -->
+
+					<div class="categories_row3">
+
+						<div class="pools">
+						
+							<a href=""><img src="img/c_pools.png" alt=""></a>
+
+							<br>
+
+							<h2><a href="">pools, spas,<br> & water gear</a></h2>
+
+							<ul class="pools hover">
+
+								<li><a href=""><span>pools, spas,<br> & water gear</span></a></li>
+								<li><a href="">swimming pools</a></li>
+								<li><a href="">hot tubs, spas & saunas</a></li>
+								<li><a href="">maintenance & cleaning</a></li>
+								<li><a href="">water slides</a></li>
+								<li><a href="">floats & tubes</a></li>	
+								<li><a href="">swimming & snorkeling</a></li>
+								<li><a href="">weight training</a></li>	
+								<li><a href="">pool toys & games</a></li>
+							</ul>
+
+						</div> <!-- end exercise category -->
+
+						<div class="sports">
+
+							<a href=""><img src="img/c_sportsequip.png" alt=""></a>
+
+							<br>
+
+							<h2><a href="">sports equipment</a></h2>
+
+							<ul class="sports hover">
+
+								<li><a href=""><span>sports equipment</span></a></li>
+								<li><a href="">basketball</a></li>
+								<li><a href="">baseball & softball</a></li>
+								<li><a href="">football</a></li>
+								<li><a href="">soccer</a></li>
+								<li><a href="">golf</a></li>
+								<li><a href="">hockey</a></li>
+								<li><a href="">racquet sports</a></li>
+								
+							</ul>
+
+						</div> <!-- end boating category -->
+
+						<div class="scooters">
+
+							<a href=""><img src="img/c_scooters.png" alt=""></a>
+
+							<br>
+
+							<h2><a href="">scooters, skateboards<br>& skates</a></h2>
+
+							<ul class="scooters hover">
+
+								<li><a href=""><span>scooters, skateboards<br>& skates</span></a></li>
+								<li><a href="">scooters</a></li>
+								<li><a href="">skateboards</a></li>
+								<li><a href="">inline & rollerskates</a></li>
+								<li><a href="">iceskates</a></li>
+								<li><a href="">helmets</a></li>
+								
+							</ul>
+							
+						</div> <!-- end scooters div --> 	
+
+						<div class="clearance">
+
+							<a href=""><img src="img/c_clearance.png" alt=""></a>
+
+							<br>
+
+							<h2><a href="">clearance &<br>& weekly deals</a></h2>
+
+							<ul class="clearance hover">
+
+								<li><a href=""><span>clearance &<br>weekly deals</span></a></li>
+								<li><a href="">clearance</a></li>
+								<li><a href="">weekly deals</a></li>
+								<li><a href="">store pickup eligible deals</a></li>
+
+							</ul>
+
+						</div> <!-- end clearance div -->
+
+					</div> <!-- end categories row 3 -->
+
+				</div> <!-- end categories div -->	
+
+					<div class="top_rated">
+
+						<h2>top rated items in sports & outdoors</h2>
+
+						<div class="gaiam">
+
+							<a href=""><img src="img/tr_gaiam.png" alt=""></a>
+
+							<ul class="tr_gaim">
+								
+								<li>$10.99</li>
+								<li><a href="">Gaiam Yoga Block<br>Teal Blue</a></li>
+
+							</ul>
+							
+						</div> <!-- end gaiam div -->
+
+						<div class="ripclaw">
+
+							<a href=""><img src="img/tr_ripclaw.png" alt=""></a>
+
+							<ul class="tr_ripclaw">
+
+								<li>$69.99</li>
+								<li><a href="">Boy's Magna Rip Claw<br>Bike - Grey/Yellow (20")</a></li>
+
+							</ul>
+						
+						</div> <!-- end ripclaw div -->
+
+						<div class="samsung">
+
+							<a href=""><img src="img/tr_samsung.png"></a>
+
+							<ul class="tr_samsung">
+								<li>$149.99</li>
+								<li><a href="">Samsung Gear Fit<br>Fitness Tracker - Black</a></li>
+
+							</ul>
+
+						</div> <!-- end samsung div -->
+
+						<div class="callaway">
+
+							<a href=""><img src="img/tr_callaway.png"></a>
+
+							<ul class="tr_callaway">
+								<li>$20.19</li>
+								<li><a href="">Callaway Supersoft<br>Golf Balls</a></li>
+
+							</ul>
+							
+						</div> <!-- end callaway div -->
+
+					</div> <!-- end top rated items	 -->
+
+					<div class="featured_items">
+						
+						<h2>featured items</h2>
+
+						<div class ="featured_bikes">
+							
+							<div class="featured_bikes_text">
+								
+								<h3>schools's out.<br>time to ride.</h3>
+
+								<h4>save on kids' bikes<br>featuring their fave friends.</h4>
+
+								<ul>
+									
+									<li><a href="">kids' bikes deals</a></li>
+									<li><a href="">all bikes & accessories</a></li>
+
+								</ul>
+
+							</div>
+
+							<div class="featured_bikes_img">
+
+								<a href=""><img src="img/featured_bikes.png"></a>
+								
+
+							</div>
+						
+						</div> <!-- end featured bikes div -->
+
+					</div> <!-- end featured items div -->
+
+					<div class="weekly_deals">
+
+						<h2>weekly deals</h2>
+
+							<div class="team_text">
+
+								<h3>save up to 30% on Father's Day gifts<br>featuring his favorite team.*</h3>
+
+							</div>
+
+							<div class="team_img">
+
+								<img src="img/discount_fd.png">
+
+								<ul>
+
+									<li><a href="">Wild Sports tailgaiting</a></li>
+									<li><a href="">Fanmate auto accessories</a></li>
+									<li><a href="">fan shop deals</a></li>
+
+								</ul>
+
+							</div> <!-- end team img div -->
+
+						<div class="featured_pool">
+
+							<img src="img/discount_pool.png" alt="">
+
+							<h1>save up to 20% on pool & water fun.*</h1>
+
+							<p><a href="">pool & water deals</a></p>
+
+						</div> <!-- end featured pool div -->
+
+					</div> <!-- end weekly deals div -->
+
+						<div class="restrictions">
+
+							<p>*see <a href=""><span>offer details page </span></a>for full details of all deals. some restrictions apply.</p>
+
+						</div> <!-- end restrictions div -->
+
+						<div class="about">
+
+							<p>Hearing the call of the outdoors? Target lets you embrace your adventurous spirit with our collection of sports and outdoor equipment including camping, hiking and backpacking gear. Our tents and camping gear are a nature lover’s delight. But if you want to do more than walking, running or hiking, we have you covered with the latest sports equipment. Bikes are one of our hottest items. Conquer any terrain with our mountain bikes, road bikes or bmx bikes. If exploring the wilderness or hosting parties is your hobby, our canopy sets are the perfect shelter from the elements. At Target, our state-of-the-art golf clubs and accessories will help you bring your A-game. Encourage your children to enjoy some active playtime with scooters, trampolines, skateboards, skates, go-karts and more. Our helmets and pads will keep you and your little ones protected while you have fun. After a long day of enjoying the outdoors, cool off in our outdoor swimming pools. Inflatable kiddie pools, water slides and pool toys are also popular. Don’t forget tubes and chaise lounges for a relaxing float. Whether you enjoy the thrill of an adventure or just the fresh air and sunshine, it’s important to stay in shape. When the weather is being less than cooperative, we offer treadmills, exercise bikes, ellipticals, weight-training accessories and much more. You have plenty of opportunities to enjoy indoor and outdoor sports with the vast selection at Target. So, stay active!</p>	
+
+						</div> <!-- end about div -->
+						
+					</div>
 				
+			</div> <!--End main body div-->
 
-			</div>	
+			<div class="secondary_nav clearfix">
 
+				<nav class="clearfix">
+					
+					<ul>
+						<li><a href=""><span>Target stores</span></a></li>
+						<li><a href="">find a store</a></li>
+						<li><a href="">clinic</a></li>
+						<li><a href="">optical</a></li>
+						<li><a href="">pharmacy</a></li>
+						<li><a href="">photo</a></li>
+						<li><a href="">portrait studio</a></li>
 
-			<div class="primary_searchbar">
+					</ul>
 
+					<ul>
+						<li><a href=""><span>about Target</span></a></li>	
+						<li><a href="">news, information, & blog</a></li>
+						<li><a href="">careers</a></li>
+						<li><a href="">corporate responsibility</a></li>
+						<li><a href="">investor relations</a></li>
+						<li><a href="">pressroom</a></li>
+						<li><a href="">affiliates</a></li>
+						<li><a href="">team member services</a></li>
+						<li><a href="">Bullseye Shop</a></li>
+						<li><a href="">advertise with us</a></li>
 
+					</ul>	
 
+					<ul>
+						
+						<li><a href=""><span>ways to save</span></a></li>
+						<li><a href="">weekly ads</a></li>
+						<li><a href="">coupons</a></li>
+						<li><a href="">clearance</a></li>
+						<li><a href="">all the deals</a></li>
 
+					</ul>
+
+					<ul>
+						
+						<li><a href=""><span>help</span></a></li>
+						<li><a href="">see all help</a></li>
+						<li><a href="">accessibility</a></li>
+						<li><a href="">track an order</a></li>
+						<li><a href="">return an item</a></li>
+						<li><a href="">store pickup</a></li>
+						<li><a href="">shipping information</a></li>
+						<li><a href="">product recalls</a></li>
+						<li><a href="">size charts</a></li>
+						<li><a href="">contact us</a></li>
+
+					</ul>	
+
+				</nav>
 				
+			</div> <!-- end secondary nav -->
 
-			</div>
+		<footer class="clearfix">
 
-		</header> <!-- End header
+			<div class="tertiary_nav clearfix">
 
-		
+				<img src="img/target_logo.gif" alt="">
+
+				<nav>
+
+					<ul>
+
+					<li><a href="">privacy policy |</a></li>
+					<li><a href="">terms & conditions |</a></li>
+					<li><a href="">CA privacy rights |</a></li>
+					<li><a href="">CA transparency in supply chains act |</a></li>
+					<li><a href="">about the site</a></li>
+
+					</ul>
+
+				</nav>
+				
+				<p>copyright 2015 Target Brands, Inc. Target, the Bullseye Design and Bullseye Dog are trademarks of Target Brands, Inc. All rights reserved.</p>
+
+			</div> <!-- end tertiary nav -->
+
+			<div class="bottom_nav">
+				
+				<nav>
+					
+					<ul class="bottom_nav1"> 
+
+						<li>view all products by:</li>
+						<li><a href="">accessories</a></li>
+						<li><a href="">clothing</a></li>
+						<li><a href="">jewelery & watches</a></li>
+						<li><a href="">shoes</a></li>
+						<li><a href="">baby</a></li>
+						<li><a href="">home</a></li>
+						<li><a href="">bath</a></li>
+						<li><a href="">bedding</a></li>
+						<li><a href="">appliances</a></li>
+						<li><a href="">decor</a></li>
+						<li><a href="">kitchen</a></li>
+						<li><a href="">patio & garden</a></li>
+						<li><a href="">furniture</a></li>
+						<li><a href="">electronics</a></li>
+						<li><a href="">toys</a></li>
+						<li><a href="">health & beauty</a></li>
+						<li><a href="">sports</a></li>
+
+					</ul>
+
+				</nav>
+
+				<nav>
+					
+					<ul class="bottom_nav2">
+
+						<li><a href="">shop all departments</a></li>
+						<li><a href="">view mobile version</a></li>
+
+					</ul>	
+
+				</nav>
+
+			</div> <!-- end bottom nav -->
+
+			</div> <!-- End wrapper div -->	
+
+		</footer> <!-- end footer -->
 
 
-
-
-		<div class="wrapper">
-			
-
-
-		</div>
-		
 
 	</body>
 

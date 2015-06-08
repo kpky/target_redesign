@@ -1,0 +1,1198 @@
+/*colors
+
+red #cc0000
+dark red #980000
+yellow #f1f105
+dark gray #454545
+light gray #ededed*/
+
+/*border: 2px dotted #ededed;*/
+
+
+.clearfix:before,
+.clearfix:after {
+  content: "";
+  display: table;
+}
+ 
+.clearfix:after {
+  clear: both;
+}
+ 
+.clearfix {
+  zoom: 1; /* ie 6/7 */
+}
+
+header{
+	background: #ffffff;
+}
+
+
+body{
+	font-family: 'Helvetica', 'Arial', 'san-serif';
+
+}
+
+body li a:hover{
+	color: #cc0000;
+}
+
+ul{
+	list-style: none;
+	padding-left: 0;
+}
+
+li{
+	text-align: left;
+	list-style: none;
+	font-size: 0.9em;
+}
+
+ul a{
+	color: #000000;
+}
+
+a{
+	text-decoration: none;
+}
+
+p{
+	font-size: 0.9em;
+}
+
+.hover{
+	display: none;
+}
+
+.hover ul{
+	background: #ffffff;
+
+}
+
+.header_logo_dt{
+	display: none;
+}		
+
+.header_logo_m{
+	display: block;
+	width: 15%;
+	margin: 2% auto;
+
+}
+
+.primary_navigation{
+	background: #cc0000;
+
+}
+
+.primary_navigation_list a:hover{
+	color: #ffffff;
+	text-decoration: underline;
+}
+
+.primary_navigation_list{
+	
+	width: 100%;
+	padding-left: 15%;
+	padding-bottom: 3%;
+	padding-top: 3%;
+	margin-bottom: 0;
+
+}
+
+.primary_navigation_list li{
+	display: inline-block;	
+	width: 49%;
+}
+
+.primary_navigation_list a{
+	color: #ffffff;
+	font-size: 1em;
+	font-weight: 700;
+}
+
+.shop_all_categories{
+	display: none;
+}	
+
+.main_navigation{
+	display: none;
+}
+
+.categories{
+	width: 100%;
+}
+
+
+.categories img{
+	width: 100%;
+	margin-top: 10%;
+	padding: 0;
+	
+}
+
+.categories h2{
+	width: 100%;
+	font-size: 1em;
+	text-align: center;
+	margin: 0;
+
+}
+
+.categories h2 a{
+	color: #000000;
+}
+
+.categories h2 a:hover{
+	color: #cc0000;
+
+}
+
+.primary_searchbar form{
+	display: block;
+	width: 100%;
+	float: center;
+	background: #cc0000;
+	padding-top: 3%;
+	padding-bottom: 3%;
+
+
+}
+
+.primary_searchbar select{
+	width: 96%;
+	margin-right: 2%;
+	margin-left: 2%;
+		
+}
+
+.search_field{
+	margin: 4% 2% 3% 2%;
+	width: 65%;
+	float: left;
+
+}
+
+.primary_searchbar img{
+	width: 10%;
+
+}
+
+.primary_searchbar button{
+	width: 8%;
+	padding: 0;
+	margin-top: 3.5%;
+	float: left;
+
+}
+
+.primary_searchbar button img{
+	width: 100%;
+	margin: 2% auto;
+}
+
+.shopping_cart{
+	width: 100%;
+	background: #cc0000;
+	padding-bottom: 3%;
+}
+
+.shopping_cart img{
+	margin-left: 7%;
+	margin-top: 0.5%;
+}
+
+.shopping_cart h4{
+
+	display: none;
+
+}
+
+.free_shipping p{
+	color: #000000;
+	font-weight: 700;
+	text-align: center;
+	margin: 3%;
+	
+}
+
+.free_shipping span{
+	color: #cc0000;
+}
+
+.free_shipping a{
+	color: #000000;
+	font-size: 0.8em;
+}
+
+.free_shipping a:hover{
+	color: #cc0000;
+}
+
+.page_title h4{
+	display: none;
+
+}
+
+.page_title h1{
+	font-size: 1.5em;
+	text-align: center;
+}
+
+.bikes, .boating, .camping, .coolers, .exercise, .fanshop, .gameroom, .outdoor, .pools, .sports, .scooters, .clearance{
+	width: 50%;
+	min-height: 250px;
+	float: left;
+	border-top: 2px dotted #ededed;
+	margin-bottom: 8%;
+}
+
+.boating img{
+	width: 80%;
+}
+
+
+.top_rated{
+	margin-top: 4%;
+	margin-bottom: 4%;
+}
+
+.top_rated h2{
+	font-size: 1.1em;
+	clear: both;
+	background: #cc0000;
+	padding: 4%;
+	text-align: left;
+	color: #ffffff;
+	margin: 0;
+
+}
+
+.gaiam, .ripclaw, .samsung, .callaway{
+	display: block;
+	width: 41%;
+	min-height: 210px;
+	float: left;
+	margin-top: 2%;
+	margin-bottom: 0;
+	margin-left: 5%;
+	border-top: 2px dotted #ededed;
+}
+
+.gaiam, .ripclaw{
+	border: none;
+}
+
+.gaiam img, .ripclaw img, .samsung img, .callaway img{
+	width: 100%;
+}
+
+.top_rated li{
+	font-size: 0.8em;
+	font-weight: 700;
+	text-align: left;
+	margin-left: 10%;
+
+}
+
+.featured_items h2{
+	font-size: 1.1em;
+	clear: both;
+	background: #cc0000;
+	padding: 4%;
+	text-align: left;
+	color: #ffffff;
+	margin: 0;
+
+}
+
+.featured_bikes_text{
+	width: 43%;
+	float: left;
+	margin-left: 5%;
+	border-right: 2px dotted #ededed;
+}
+
+.featured_bikes_text li{
+	font-size: 0.8em;
+	font-weight: 700;
+}
+
+.featured_bikes_img{
+	width: 50%;
+	float: left;
+}
+
+.featured_bikes_img img{
+	width: 100%;
+
+}
+
+.weekly_deals h2{
+	clear: both;
+	background: #cc0000;
+	color: #ffffff;
+	font-size: 1.1em;
+	text-align: left;
+	padding: 4%;
+
+}
+
+.team_text{
+	width: 47%;
+	float: left;
+	min-height: 220px;	
+	border-right: 2px dotted #ededed;
+	
+}
+
+.team_text h3{
+	margin: 3%;
+		
+
+}
+
+.team_img{
+	width: 50%;
+	float: left;
+	min-height: 220px;
+
+}
+
+.team_img img{
+	width: 100%;
+}
+
+.team_img li a{
+	font-size: 0.8em;
+	font-weight: 700;
+	margin-left: 4%;
+
+}
+
+.featured_pool{
+	width: 100%;
+	margin-bottom: 6%;
+	border-bottom: 2px dotted #ededed;
+
+}
+
+.featured_pool img{
+	width: 100%;
+	margin: 0;
+}
+
+.featured_pool h1{
+	margin: 0 2% 2% 2%;
+	font-size: 1.5em;
+}
+
+.featured_pool p a{
+	display: block;
+	margin: 2%;
+	font-size: 1.3em;
+	font-weight: 700;
+	text-align: left;
+	color: #000000;
+}
+
+.featured_pool p a:hover{
+	color: #cc0000;
+}
+
+.restrictions p{
+	font-weight: 500;
+	margin-left: 2%;
+
+}
+
+.restrictions span{
+	font-weight: 700;
+	color: #000000;
+}
+
+.restrictions span:hover{
+	color: #cc0000;
+}
+
+.about p{
+	font-size: 0.7em;
+	margin: 2%;
+	padding-bottom: 2%;
+	border-bottom: 2px dotted #ededed;
+
+}
+
+.secondary_nav{
+	width: 100%;
+
+}
+
+.secondary_nav ul{
+	width: 99%;
+	border-bottom: 2px dotted #ededed;
+	padding: 1%;
+	margin: 0 2% 1% 0;
+
+}
+
+.secondary_nav li{
+	display: inline-block;
+	font-size: 0.7em;
+	font-weight: 700;
+	padding: 1%;
+	
+}
+
+.secondary_nav a{
+	text-align: center;
+
+}
+
+.tertiary_nav img{
+	display: none;
+	width: 15%;
+}
+
+footer{
+	background: #cc0000;
+
+}
+
+.tertiary_nav{
+	width: 100%;
+}
+
+.tertiary_nav ul{
+	display: inline-block;
+	font-size: 0.7em;
+	font-weight: 700;
+	margin-left: 2%;
+	padding: 1%;
+	text-align: left;
+	
+}
+
+.tertiary_nav li{
+	display: inline-block;
+	font-size: 0.7em;
+	font-weight: 700;
+	padding: 0.5%;
+}
+
+.tertiary_nav a{
+	color: #ffffff;
+}
+
+
+.tertiary_nav a:hover{
+	color: #ffffff;
+	text-decoration: underline;
+}
+
+.tertiary_nav p{
+	font-size: 0.6em;
+	font-weight: 500;
+	margin: 3%;
+	margin-top: 0;
+	margin-bottom: 0;
+	color: #ffffff;
+
+}
+
+.bottom_nav ul{
+	display: inline-block;
+	font-size: 0.7em;
+	font-weight: 500;
+	margin-left: 2%;
+	padding: 1%;
+	text-align: left;
+
+}
+
+.bottom_nav li{
+	display: inline-block;
+	font-size: 0.7em;
+	font-weight: 700;
+	color: #ffffff;
+	padding-right: 1%;
+
+}
+
+.bottom_nav a{
+	color: #ffffff;
+}
+
+.bottom_nav a:hover{
+	color: #ffffff;
+	text-decoration: underline;
+}
+
+.bottom_nav1{
+	margin: 1% 0 1% 1%;
+}
+
+.bottom_nav2{
+	margin-top: 0;
+	margin-bottom: 1%;
+}
+
+@media screen and (min-width: 420px){
+
+.bikes, .boating, .camping, .coolers, .exercise, .fanshop, .gameroom, .outdoor, .pools, .sports, .scooters, .clearance{	
+
+	width: 28%;
+
+}
+
+.bikes, .coolers, .gameroom, .sports{
+	margin-left: 6%;
+}
+
+}
+@media screen and (min-width: 680px){
+
+.primary_navigation_list a{
+
+	font-size: 1.3em;
+
+}	
+
+.primary_searchbar button{
+	width: 5%;
+}
+
+.primary_searchbar img{
+	width: 6%;
+}
+
+.bikes, .boating, .camping, .coolers, .exercise, .fanshop, .gameroom, .outdoor, .pools, .sports, .scooters, .clearance{
+	width: 28%;
+	margin-bottom: 0;
+}
+
+
+.bikes img, .boating img, .camping img, .coolers img, .exercise img, .fanshop img, .gameroom img, .outdoor img, .pools img, .sports img, .scooters img, .clearance img{
+
+	width: 40%;
+	margin-left: 20%;
+
+}
+
+.boating img{
+	width: 33%;
+}
+
+.bikes h2, .boating h2, .camping h2, .coolers h2, .exercise h2, .fanshop h2, .gameroom h2, .outdoor h2, .pools h2, .sports h2, .scooters h2, .clearance h2{
+
+	font-size: 1.3em;
+	text-align: center;
+	margin-left: 3%;
+	
+}
+
+.gaiam, .ripclaw, .samsung, .callaway{
+
+	margin-left: 9%;
+
+}
+
+.top_rated img{
+	width: 40%;
+
+}
+
+.featured_bikes_img img{
+	width: 60%;
+}
+
+.team_text{
+	min-height: 80px;
+	border-right: none;
+	margin-left: 3%;
+}
+
+.team_text h3{
+	min-height: none;
+
+}
+
+.featured_pool{
+	border: none;
+
+}
+
+.featured_pool img{
+	width: 44%;
+	margin-left: 0;
+
+}
+
+.team_img{
+	clear: both;
+	margin-left: 3%;
+
+}
+
+.team_img img{
+	width: 50%;
+}
+
+.restrictions{
+	clear: both;
+	border-top: 2px dotted #ededed; 
+}
+
+}
+
+@media screen and (min-width: 960px){
+
+
+.site_header{
+	background: #cc0000;
+	padding: 2%;
+	position: relative;
+}	
+
+.header_logo_m{
+	display: none;
+}
+
+.header_logo_dt{
+	display: block;
+	width: 5%;
+	float: left;
+	margin-left: 7%;
+}
+
+.primary_navigation{
+	width: 80%;
+	float: left;
+}
+
+.primary_navigation_list{
+	width: 100%;
+	padding-left: 2%;
+	padding-bottom: 0;
+	padding-top: 0;
+
+	
+}
+
+.primary_navigation_list li{
+	display: inline-block;
+	width: 11%;
+	padding-right: 1%;
+	font-size: 0.8em;
+	float: left;
+	text-align: center;
+
+}
+
+.categories h2{
+	font-size: 1em;
+}
+
+.primary_navigation_list a:hover{
+	color: #ffffff;
+	text-decoration: underline;
+	font-weight: 900;
+}
+
+.mini_header{
+	background: #cc0000;
+	width: 90%;
+	height: 60%;
+	margin: 0 auto;
+	position: absolute;
+	top: 85%;
+	left: 5%;
+	border-radius: 3px;
+	border: 1px solid #ffffff;
+}
+
+.shop_all_categories, .primary_searchbar, .shopping_cart{
+	width: 30%;
+	float: left;
+
+}
+.primary_searchbar{
+	width: 78%;
+	float: left;
+
+}
+
+.primary_searchbar form{
+	background: none;
+	padding: 0;
+
+}
+
+.primary_searchbar select{
+	width: 10.5%;
+	float: left;
+	margin-top: 2%;
+	margin-right: 0;
+	margin-left: 0;
+}
+
+.search_field{
+	width: 50%;
+	float: left;
+	margin-top: 2%;
+}
+
+.shopping_cart{
+	background: none;
+	width: 25%;
+	padding-bottom: 0;
+	float: left;
+	margin-top: 1%;
+	margin-left: 2%;
+}
+
+.shopping_cart img{
+	display: inline-block;
+	width: 19%;
+	margin-top: 4%;
+	margin-right: 3%;
+	float: right;
+}
+
+.shopping_cart h4{
+	display: inline-block;
+	color: #ffffff;
+	font-size: 0.9em;
+	width: 68%;
+	float: right;
+	margin-top: 6%;
+	margin-bottom: 0;
+	margin-right: 3%;
+
+}
+
+.primary_searchbar button{
+	width: 4%;
+	margin-top: 2%;
+	margin-left: 1%;
+}
+
+.primary_searchbar button img{
+	width: 100%;
+	margin: 0;
+}
+
+.shop_all_categories{
+	display: inline-block;
+	width: 20%;
+	color: #ffffff;
+	float: left;
+	margin-right: 2%;
+}
+
+.shop_all_categories img{
+	width: 15%;
+	margin: 1%;
+	float: left;
+	margin-top: 6%;
+	margin-left: 6%;
+}
+
+.shop_all_categories h3{
+	width: 76%;
+	margin-top: 8%;
+	margin-bottom: 0;
+	margin-left: 2%;
+	font-size: 0.9em;
+	float: left;
+}
+
+.shop_all_categories ul{
+	display: none;
+}
+
+.wrapper{
+	width: 80%;
+	margin: 0 auto;
+}
+
+.free_shipping{
+	clear: both;
+	margin-top: 6%
+
+}
+
+.free_shipping a:hover{
+	color: #cc0000;
+
+}
+
+.page_title h4, .page_title h1{
+	display: block;
+	text-align: left;
+	color: #000000;
+}
+
+.main_navigation{
+	display: block;
+	width: 20%;
+	float: left;
+	border-right: 2px dotted #ededed;
+	margin-left: 1%;
+}
+
+.main_navigation ul{
+	border-bottom: 2px dotted #ededed;
+	padding-bottom: 8%;
+
+}
+
+.main_navigation li{
+	font-size: 0.8em;
+	font-weight: 700;
+
+}
+
+.main_navigation a{
+	font-size: 0.8em;
+	font-weight: 700;
+}
+
+.main_navigation a:hover{
+	color: #000000;
+	text-decoration: underline;
+
+}
+
+.categories{
+	width: 78%;
+	float: left;
+	display: inline-block;
+}
+
+.categories h2{
+	display: inline-block;
+	background: #cc0000;
+	min-height: 54px;
+	margin-top: 1%;
+	padding-top: 5%;
+
+}
+
+.categories h2 a{
+	color: #ffffff;
+	padding-top: 3%;
+}
+
+.categories h2 a:hover{
+	color: #ffffff;
+	text-decoration: underline;
+}
+
+.bikes, .boating, .camping, .coolers, .exercise, .fanshop, .gameroom, .outdoor, .pools, .sports, .scooters, .clearance{
+	width: 25%;
+	min-height: 250px;
+	float: left;
+	border-top: none;
+	margin-bottom: 0%;
+	margin-left: 0;
+	vertical-align: bottom;
+}
+
+.bikes img, .boating img, .camping img, .coolers img, .exercise img, .fanshop img, .gameroom img, .outdoor img, .pools img, .sports img, .scooters img, .clearance img{
+
+	height: 153px;
+	width: 100%;
+	margin-left: 0;
+
+}
+
+
+.bikes h2, .boating h2, .camping h2, .coolers h2, .exercise h2, .fanshop h2, .gameroom h2, .outdoor h2, .pools h2, .sports h2, .scooters h2, .clearance h2{
+
+	margin-left: 0;
+	
+}
+
+.boating img{
+	width: 80%;
+}
+
+.top_rated, .featured_items, .weekly_deals{
+	width: 79%;
+	float: right;
+	margin-bottom: 0;
+}
+
+.top_rated h2, .featured_items h2, .weekly_deals h2{
+	background: #ededed; 
+	color: #cc0000;
+	padding: 2%;
+	font-size: 1.1em;
+}
+
+.restrictions p{
+	clear: both;
+}
+
+.gaiam, .ripclaw, .samsung, .callaway{
+	width: 25%;
+	border-top: none;
+	min-height: none;
+	margin-bottom: 0;
+	margin-left: 0;
+
+}
+
+.gaiam img, .ripclaw img, .samsung img, .callaway img{
+	width: 100%;
+	float: right;
+	min-height: 150px;
+}
+
+.featured_bikes_text{
+	width: 42%;
+}
+
+.featured_bikes_text, .featured_bikes_text li{
+	text-align: right;
+	padding-right: 2%;
+}
+
+.featured_bikes_text h4{
+	color: #cc0000;
+}
+
+.featured_bikes_img img{
+	width: 90%;
+}
+
+.team_text{
+	min-height: 80px;
+	width: 100%;
+	text-align: center;
+	border-right: none;
+}
+
+.team_img{
+	clear: both;
+	width: 46%;
+
+}
+
+.team_img img{
+	width: 100%;
+}
+
+.featured_pool{
+	width: 46%;
+	float: left;
+	border-left: 2px dotted #ededed;
+	border-bottom: none;
+	padding-left: 2%;
+}
+
+.featured_pool img{
+	width: 100%;
+}
+
+.restrictions, .about{
+	width: 79%;
+	float: right;
+}
+
+.restrictions{
+	border-bottom: 2px dotted #ededed; 
+}
+
+.about p{
+	border-bottom: none;
+}
+
+.secondary_nav{
+	display: block;
+	width: 73%;
+	float: right;
+	background: #ffffff;
+	color: #000000;
+}
+
+.secondary_nav ul{
+	display: block;
+	width: 18%;
+	text-align: left;
+	float: left;
+	border-bottom: none;
+	line-height: 1;
+	margin: 2%;
+	padding: 0;
+}
+
+.secondary_nav li{
+	display: block;
+	font-weight: 500;
+	font-size: 0.6em;
+	padding: 0;
+}
+
+.secondary_nav span{
+	font-weight: 700;
+}
+
+.secondary_nav a{
+	padding: 0;
+
+}
+
+.secondary_nav a:hover{
+	text-decoration: underline;
+}
+
+
+.tertiary_nav, .bottom_nav1{
+	background: #ffffff;
+	width: 93%;
+
+}
+
+.tertiary_nav nav{
+	width: 100%;
+
+
+}
+
+.tertiary_nav li{
+	text-align: right;
+
+}
+
+.tertiary_nav ul, .tertiary_nav p{
+	text-align: right;
+	width: 92%;
+	margin-bottom: 0;
+	color: #000000;
+	
+}
+
+.tertiary_nav1 ul{
+	margin-bottom: 0;
+
+}
+
+
+.tertiary_nav a, .bottom_nav a{
+	font-weight: 700;
+	color: #000000;
+}
+
+.tertiary_nav p{
+	font-weight: 500;
+	font-size: 0.6em;
+}
+
+
+.tertiary_nav a:hover{
+	text-decoration: underline;
+	color: #000000;
+} 
+
+.bottom_nav{
+	width: 88%;
+	text-align: right;
+}
+
+.bottom_nav ul{
+	width: 76%;
+	text-align: right;
+	margin-top: 0;
+	margin-bottom: 0;
+	padding: 0 0 1% 0;
+
+}
+.bottom_nav a:hover{
+	text-decoration: underline;
+	color: #000000;
+}
+
+
+footer{
+	clear: both;
+	background: #ffffff;
+}
+
+.hover:hover{
+	display: block;
+}
+
+} /*end desktop media query*/
+
+
+/*begin dropdown menus*/
+
+/*.hover div ul{
+        padding: 0;
+        list-style: none;
+    }
+.hover div ul li{
+        width: 100px;
+        display: inline-block;
+        position: relative;
+        text-align: center;
+        line-height: 21px;
+    }
+.hover div ul li a{
+        display: block;
+        padding: 5px 10px;
+        color: #333;
+        background: #f2f2f2;
+        text-decoration: none;
+    }
+    
+.hover div ul li a:hover{
+        color: #fff;
+        background: #939393;
+    }
+    
+.hover div ul li ul{
+        display: none;
+        position: absolute;
+        z-index: 999;
+        left: 0;
+    }
+    
+.hover div ul li:hover ul{
+        display: block; /* display the dropdown
+
+ }       */ 
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
