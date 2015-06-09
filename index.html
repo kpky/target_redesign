@@ -8,11 +8,11 @@
 
 		<link rel="stylesheet" type="text/css" href="css/normalize.css">
 
-		<link href="css/sm-core-css.css" rel="stylesheet" type="text/css" />
+		<!--<link href="css/sm-core-css.css" rel="stylesheet" type="text/css" />
 
 		<script type="text/javascript" src="js/jquery.smartmenus.js"></script>
 
-		<script src = "js/jquery-1.11.3.js"></script>
+		<script src = "js/jquery-1.11.3.js"></script> !-->
 		
 		<link rel="stylesheet" type="text/css" href="css/style.css">
 
@@ -22,17 +22,17 @@
 
 		<header class="site_header clearfix">
 
-			<a href=""><img class="header_logo_m" src="img/target_logo.gif"></a>
+			<h1><a href="#"><img class="header_logo_m" src="img/target_logo.gif"></a></h1>
 
 			<a href=""><img class="header_logo_dt" src="img/target_logo_white.png" alt=""></a>
 
 			<nav class="primary_navigation clearfix">
 
-				<ul class="primary_navigation_list">
+				<ul class="primary_navigation_list clearfix">
 				
 					<li><a href="">sign in/account</a></li>
 					
-					<li><a href="">my store</a></li>
+					<li class="mystore_li"><a href="">my store</a>
 
 						<div class="mystore_dropdown hover">
 
@@ -74,12 +74,15 @@
 							</form>
 
 						</div> <!--  End mystore dropdown -->
+					</li>
 
 					<li><a href="">weekly ad</a></li>
 					<li><a href="">gift cards</a></li>
 					<li><a href="">registries</a></li>
 					<li><a href="">TargetLists</a></li>
-					<li><a href="">REDcard</a></li>
+					<li class="redcard_li"><a href="">REDcard</a>
+
+
 
 						<ul class="redcard_options hover">
 						
@@ -87,6 +90,8 @@
 							<li><a href="">manage my REDcard</a></li>
 
 						</ul>
+
+					</li>	
 
 					<li><a href="">email offers</a></li>		
 				
@@ -100,7 +105,7 @@
 
 					<img src="img/white_menu_icon.png">
 
-					<h3>shop all categories</h3>
+					<h3><a href="#">shop all categories</a></h3>
 
 						<ul class="main_categories_list">
 
@@ -1046,296 +1051,278 @@
 
 				<div class="categories clearfix">
 
-					<div class="categories_row1">
+					<div class="category_item bikes">
+					
+						<a href=""><img src="img/c_bike.png" alt=""></a>
 
-						<div class="bikes">
 						
-							<a href=""><img src="img/c_bike.png" alt=""></a>
 
-							<br>
+						<h2><a href="">bikes</a></h2>
 
-							<h2><a href="">bikes</a></h2>
+						<ul class="bike_list hover">
 
-							<ul class="bike hover">
+							<li><a href=""><span>bikes & accessories</span></a></li>
+							<li><a href="">cruiser</a></li>
+							<li><a href="">hybrid & comfort</a></li>
+							<li><a href="">road & fixed gear</a></li>
+							<li><a href="">mountain & fat tire</a></li>
+							<li><a href="">kids' bikes</a></li>	
+							<li><a href="">bike accessories</a></li>
+							<li><a href="">helmets & protective gear</a></li>	
+						</ul>
 
-								<li><a href=""><span>bikes & accessories</span></a></li>
-								<li><a href="">cruiser</a></li>
-								<li><a href="">hybrid & comfort</a></li>
-								<li><a href="">road & fixed gear</a></li>
-								<li><a href="">mountain & fat tire</a></li>
-								<li><a href="">kids' bikes</a></li>	
-								<li><a href="">bike accessories</a></li>
-								<li><a href="">helmets & protective gear</a></li>	
-							</ul>
+					</div> <!-- end bikes category -->
 
-						</div> <!-- end bikes category -->
+					<div class="category_item boating">
 
-						<div class="boating">
+						<a href=""><img src="img/c_watersports.png" alt=""></a>
+						<h2><a href="">boating & watersports</a></h2>
 
-							<a href=""><img src="img/c_watersports.png" alt=""></a>
+						<ul class="boating_list hover">
 
-							<br>
+							<li><a href=""><span>boating & water sports</span></a></li>
+							<li><a href="">stand-up paddleboards</a></li>
+							<li><a href="">kayaks</a></li>
+							<li><a href="">inflatable boats & rafts</a></li>
+							<li><a href="">towables & bodyboards</a></li>
+							<li><a href="">life vests & PFDs</a></li>
+							<li><a href="">boat accessories</a></li>
+						</ul>
 
-							<h2><a href="">boating &<br> watersports</a></h2>
+					</div> <!-- end boating category -->
 
-							<ul class="boating hover">
+					<div class="category_item camping">
 
-								<li><a href=""><span>boating & water sports</span></a></li>
-								<li><a href="">stand-up paddleboards</a></li>
-								<li><a href="">kayaks</a></li>
-								<li><a href="">inflatable boats & rafts</a></li>
-								<li><a href="">towables & bodyboards</a></li>
-								<li><a href="">life vests & PFDs</a></li>
-								<li><a href="">boat accessories</a></li>
-								
-							</ul>
+						<a href=""><img src="img/c_camping.png"></a>
 
-						</div> <!-- end boating category -->
-
-						<div class="camping">
-
-							<a href=""><img src="img/c_camping.png"></a>
-
-							<br>
-
-							<h2><a href="">camping<br> & outdoors</a></h2>
-
-							<ul class="camping hover">
-
-								<li><a href=""><span>camping & outdoors</span></a></li>
-								<li><a href="">airbeds</a></li>
-								<li><a href="">tents</a></li>
-								<li><a href="">canopies & shelters</a></li>
-								<li><a href="">sleeping bags</a></li>
-								<li><a href="">camp furniture</a></li>
-								<li><a href="">camp kitchen</a></li>
-								<li><a href="">camp accessories</a></li>
-								<li><a href="">binoculars & optics</a></li>
-								
-							</ul>
-							
-						</div> <!-- end camping div --> 	
-
-						<div class="coolers">
-
-							<a href=""><img src="img/c_coolers.png" alt=""></a>
-
-							<br>
-
-							<h2><a href="">coolers &<br> water bottles</a></h2>
-
-							<ul class="coolers hover">
-
-								<li><a href=""><span>coolers & water bottles</span></a></li>
-								<li><a href="">coolers</a></li>
-								<li><a href="">water bottles</a></li>
-								<li><a href="">lunch bags</a></li>
-								<li><a href="">picnic</a></li>
-
-							</ul>
-							
-
-						</div> <!-- end coolers div -->
-
-					</div> <!-- end categories row 1 -->
-
-					<div class="categories_row2">
-
-						<div class="exercise">
 						
-							<a href=""><img src="img/c_exercise.png" alt=""></a>
 
-							<br>
+						<h2><a href="">camping & outdoors</a></h2>
 
-							<h2><a href="">exercise &<br>fitness</a></h2>
+						<ul class="camping_list hover">
 
-							<ul class="exercise hover">
-
-								<li><a href=""><span>exercise & fitness</span></a></li>
-								<li><a href="">treadmills</a></li>
-								<li><a href="">ellipticals & steppers</a></li>
-								<li><a href="">exercise bikes</a></li>
-								<li><a href="">rowing machines</a></li>
-								<li><a href="">yoga & pilates</a></li>	
-								<li><a href="">cross training fitness</a></li>
-								<li><a href="">weight training</a></li>	
-								<li><a href="">wearable tech & trackers</a></li>
-							</ul>
-
-						</div> <!-- end exercise category -->
-
-						<div class="fanshop">
-
-							<a href=""><img src="img/c_fanshop.png" alt=""></a>
-
-							<br>
-
-							<h2><a href="">fan shop</a></h2>
-
-							<ul class="fanshop hover">
-
-								<li><a href=""><span>fan shop</span></a></li>
-								<li><a href="">NFL</a></li>
-								<li><a href="">NCAA</a></li>
-								<li><a href="">MLB</a></li>
-								<li><a href="">NHL</a></li>
-								<li><a href="">NBA</a></li>
-								
-							</ul>
-
-						</div> <!-- end boating category -->
-
-						<div class="gameroom">
-
-							<a href=""><img src="img/c_gameroom.png" alt=""></a>
-
-							<br>
-
-							<h2><a href="">game room</a></h2>
-
-							<ul class="gameroom hover">
-
-								<li><a href=""><span>game room & leisure sports</span></a></li>
-								<li><a href="">airhockey</a></li>
-								<li><a href="">billiards</a></li>
-								<li><a href="">darts</a></li>
-								<li><a href="">foosball</a></li>
-								<li><a href="">poker & casino</a></li>
-								<li><a href="">table tennis</a></li>
-								<li><a href="">table top &
-								<br> multi-game tables</a></li>
-								
-							</ul>
+							<li><a href=""><span>camping & outdoors</span></a></li>
+							<li><a href="">airbeds</a></li>
+							<li><a href="">tents</a></li>
+							<li><a href="">canopies & shelters</a></li>
+							<li><a href="">sleeping bags</a></li>
+							<li><a href="">camp furniture</a></li>
+							<li><a href="">camp kitchen</a></li>
+							<li><a href="">camp accessories</a></li>
+							<li><a href="">binoculars & optics</a></li>
 							
-						</div> <!-- end gameroom div --> 	
-
-						<div class="outdoor">
-
-							<a href=""><img src="img/c_outdoor.png" alt=""></a>
-
-							<br>
-
-							<h2><a href="">outdoor toys<br> & lawn games</a></h2>
-
-							<ul class="outdoor hover">
-
-								<li><a href=""><span>outdoor toys<br>& lawn games</span></a></li>
-								<li><a href="">swing sets</a></li>
-								<li><a href="">lawn games</a></li>
-								<li><a href="">slackline kits</a></li>
-								<li><a href="">zipline kits</a></li>
-								<li><a href="">trampolines</a></li>
-								<li><a href="">bounce houses</a></li>
-								<li><a href="">sand boxes</a></li>
-								<li><a href="">toy blasters</a></li>
-
-							</ul>
-
-						</div> <!-- end outdoor div -->
-
-					</div> <!-- end categories row 2 -->
-
-					<div class="categories_row3">
-
-						<div class="pools">
+						</ul>
 						
-							<a href=""><img src="img/c_pools.png" alt=""></a>
+					</div> <!-- end camping div --> 	
 
-							<br>
+					<div class="category_item coolers">
 
-							<h2><a href="">pools, spas,<br> & water gear</a></h2>
+						<a href=""><img src="img/c_coolers.png" alt=""></a>
 
-							<ul class="pools hover">
+						
 
-								<li><a href=""><span>pools, spas,<br> & water gear</span></a></li>
-								<li><a href="">swimming pools</a></li>
-								<li><a href="">hot tubs, spas & saunas</a></li>
-								<li><a href="">maintenance & cleaning</a></li>
-								<li><a href="">water slides</a></li>
-								<li><a href="">floats & tubes</a></li>	
-								<li><a href="">swimming & snorkeling</a></li>
-								<li><a href="">weight training</a></li>	
-								<li><a href="">pool toys & games</a></li>
-							</ul>
+						<h2><a href="">coolers & water bottles</a></h2>
 
-						</div> <!-- end exercise category -->
+						<ul class="coolers_list hover">
 
-						<div class="sports">
+							<li><a href=""><span>coolers & water bottles</span></a></li>
+							<li><a href="">coolers</a></li>
+							<li><a href="">water bottles</a></li>
+							<li><a href="">lunch bags</a></li>
+							<li><a href="">picnic</a></li>
 
-							<a href=""><img src="img/c_sportsequip.png" alt=""></a>
+						</ul>
+						
 
-							<br>
+					</div> <!-- end coolers div -->
 
-							<h2><a href="">sports equipment</a></h2>
+					<div class="category_item exercise">
+					
+						<a href=""><img src="img/c_exercise.png" alt=""></a>
 
-							<ul class="sports hover">
+						
 
-								<li><a href=""><span>sports equipment</span></a></li>
-								<li><a href="">basketball</a></li>
-								<li><a href="">baseball & softball</a></li>
-								<li><a href="">football</a></li>
-								<li><a href="">soccer</a></li>
-								<li><a href="">golf</a></li>
-								<li><a href="">hockey</a></li>
-								<li><a href="">racquet sports</a></li>
-								
-							</ul>
+						<h2><a href="">exercise &fitness</a></h2>
 
-						</div> <!-- end boating category -->
+						<ul class="exercise_list hover">
 
-						<div class="scooters">
+							<li><a href=""><span>exercise & fitness</span></a></li>
+							<li><a href="">treadmills</a></li>
+							<li><a href="">ellipticals & steppers</a></li>
+							<li><a href="">exercise bikes</a></li>
+							<li><a href="">rowing machines</a></li>
+							<li><a href="">yoga & pilates</a></li>	
+							<li><a href="">cross training fitness</a></li>
+							<li><a href="">weight training</a></li>	
+							<li><a href="">wearable tech & trackers</a></li>
+						</ul>
 
-							<a href=""><img src="img/c_scooters.png" alt=""></a>
+					</div> <!-- end exercise category -->
 
-							<br>
+					<div class="category_item fanshop">
 
-							<h2><a href="">scooters, skateboards<br>& skates</a></h2>
+						<a href=""><img src="img/c_fanshop.png" alt=""></a>
 
-							<ul class="scooters hover">
+						
 
-								<li><a href=""><span>scooters, skateboards<br>& skates</span></a></li>
-								<li><a href="">scooters</a></li>
-								<li><a href="">skateboards</a></li>
-								<li><a href="">inline & rollerskates</a></li>
-								<li><a href="">iceskates</a></li>
-								<li><a href="">helmets</a></li>
-								
-							</ul>
+						<h2><a href="">fan shop</a></h2>
+
+						<ul class="fanshop_list hover">
+
+							<li><a href=""><span>fan shop</span></a></li>
+							<li><a href="">NFL</a></li>
+							<li><a href="">NCAA</a></li>
+							<li><a href="">MLB</a></li>
+							<li><a href="">NHL</a></li>
+							<li><a href="">NBA</a></li>
 							
-						</div> <!-- end scooters div --> 	
+						</ul>
 
-						<div class="clearance">
+					</div> <!-- end boating category -->
 
-							<a href=""><img src="img/c_clearance.png" alt=""></a>
+					<div class="category_item gameroom">
 
-							<br>
+						<a href=""><img src="img/c_gameroom.png" alt=""></a>
 
-							<h2><a href="">clearance &<br>& weekly deals</a></h2>
+						
 
-							<ul class="clearance hover">
+						<h2><a href="">game room</a></h2>
 
-								<li><a href=""><span>clearance &<br>weekly deals</span></a></li>
-								<li><a href="">clearance</a></li>
-								<li><a href="">weekly deals</a></li>
-								<li><a href="">store pickup eligible deals</a></li>
+						<ul class="gameroom_list hover">
 
-							</ul>
+							<li><a href=""><span>game room & leisure sports</span></a></li>
+							<li><a href="">airhockey</a></li>
+							<li><a href="">billiards</a></li>
+							<li><a href="">darts</a></li>
+							<li><a href="">foosball</a></li>
+							<li><a href="">poker & casino</a></li>
+							<li><a href="">table tennis</a></li>
+							<li><a href="">table top &
+							 multi-game tables</a></li>
+							
+						</ul>
+						
+					</div> <!-- end gameroom div --> 	
 
-						</div> <!-- end clearance div -->
+					<div class="category_item outdoor">
 
-					</div> <!-- end categories row 3 -->
+						<a href=""><img src="img/c_outdoor.png" alt=""></a>
+
+						
+
+						<h2><a href="">outdoor toys & lawn games</a></h2>
+
+						<ul class="outdoor_list hover">
+
+							<li><a href=""><span>outdoor toys& lawn games</span></a></li>
+							<li><a href="">swing sets</a></li>
+							<li><a href="">lawn games</a></li>
+							<li><a href="">slackline kits</a></li>
+							<li><a href="">zipline kits</a></li>
+							<li><a href="">trampolines</a></li>
+							<li><a href="">bounce houses</a></li>
+							<li><a href="">sand boxes</a></li>
+							<li><a href="">toy blasters</a></li>
+
+						</ul>
+
+					</div> <!-- end outdoor div -->
+
+					<div class="category_item pools">
+					
+						<a href=""><img src="img/c_pools.png" alt=""></a>
+
+						
+
+						<h2><a href="">pools, spas, & water gear</a></h2>
+
+						<ul class="pools_list hover">
+
+							<li><a href=""><span>pools, spas, & water gear</span></a></li>
+							<li><a href="">swimming pools</a></li>
+							<li><a href="">hot tubs, spas & saunas</a></li>
+							<li><a href="">maintenance & cleaning</a></li>
+							<li><a href="">water slides</a></li>
+							<li><a href="">floats & tubes</a></li>	
+							<li><a href="">swimming & snorkeling</a></li>
+							<li><a href="">weight training</a></li>	
+							<li><a href="">pool toys & games</a></li>
+						</ul>
+
+					</div> <!-- end exercise category -->
+
+					<div class="category_item sports">
+
+						<a href=""><img src="img/c_sportsequip.png" alt=""></a>
+
+						
+
+						<h2><a href="">sports equipment</a></h2>
+
+						<ul class="sports_list hover">
+
+							<li><a href=""><span>sports equipment</span></a></li>
+							<li><a href="">basketball</a></li>
+							<li><a href="">baseball & softball</a></li>
+							<li><a href="">football</a></li>
+							<li><a href="">soccer</a></li>
+							<li><a href="">golf</a></li>
+							<li><a href="">hockey</a></li>
+							<li><a href="">racquet sports</a></li>
+							
+						</ul>
+
+					</div> <!-- end boating category -->
+
+					<div class="category_item scooters">
+
+						<a href=""><img src="img/c_scooters.png" alt=""></a>
+
+						
+
+						<h2><a href="">scooters, skateboards& skates</a></h2>
+
+						<ul class="scooters_list hover">
+
+							<li><a href=""><span>scooters, skateboards& skates</span></a></li>
+							<li><a href="">scooters</a></li>
+							<li><a href="">skateboards</a></li>
+							<li><a href="">inline & rollerskates</a></li>
+							<li><a href="">iceskates</a></li>
+							<li><a href="">helmets</a></li>
+							
+						</ul>
+						
+					</div> <!-- end scooters div --> 	
+
+					<div class="category_item clearance">
+
+						<a href=""><img src="img/c_clearance.png" alt=""></a>
+
+						<h2><a href="">clearance & weekly deals</a></h2>
+
+						<ul class="clearance_list hover">
+
+							<li><a href=""><span>clearance &<br>weekly deals</span></a></li>
+							<li><a href="">clearance</a></li>
+							<li><a href="">weekly deals</a></li>
+							<li><a href="">store pickup eligible deals</a></li>
+
+						</ul>
+
+					</div> <!-- end clearance div -->
 
 				</div> <!-- end categories div -->	
 
-					<div class="top_rated">
+					<div class="toprated">
 
 						<h2>top rated items in sports & outdoors</h2>
 
-						<div class="gaiam">
+						<div class="toprated_item">
 
 							<a href=""><img src="img/tr_gaiam.png" alt=""></a>
 
-							<ul class="tr_gaim">
+							<ul class="tr_list">
 								
 								<li>$10.99</li>
 								<li><a href="">Gaiam Yoga Block<br>Teal Blue</a></li>
@@ -1344,11 +1331,11 @@
 							
 						</div> <!-- end gaiam div -->
 
-						<div class="ripclaw">
+						<div class="toprated_item">
 
 							<a href=""><img src="img/tr_ripclaw.png" alt=""></a>
 
-							<ul class="tr_ripclaw">
+							<ul class="tr_list">
 
 								<li>$69.99</li>
 								<li><a href="">Boy's Magna Rip Claw<br>Bike - Grey/Yellow (20")</a></li>
@@ -1357,11 +1344,11 @@
 						
 						</div> <!-- end ripclaw div -->
 
-						<div class="samsung">
+						<div class="toprated_item">
 
 							<a href=""><img src="img/tr_samsung.png"></a>
 
-							<ul class="tr_samsung">
+							<ul class="tr_list">
 								<li>$149.99</li>
 								<li><a href="">Samsung Gear Fit<br>Fitness Tracker - Black</a></li>
 
@@ -1369,11 +1356,11 @@
 
 						</div> <!-- end samsung div -->
 
-						<div class="callaway">
+						<div class="toprated_item">
 
 							<a href=""><img src="img/tr_callaway.png"></a>
 
-							<ul class="tr_callaway">
+							<ul class="tr_list">
 								<li>$20.19</li>
 								<li><a href="">Callaway Supersoft<br>Golf Balls</a></li>
 

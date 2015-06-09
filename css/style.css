@@ -8,6 +8,26 @@ light gray #ededed*/
 
 /*border: 2px dotted #ededed;*/
 
+/*NOTES*/
+
+/*download sprite sheet from site*/
+
+/*(header)border-top - 1 px solid #f24b33*/
+
+/*background image for header
+padding-left
+background: url
+background repeat
+background-size contain
+background position left center*/
+
+/*-webkit-appearance: none*/
+/*outline: none;*/
+
+/*ul - display block, margin & padding 0
+
+li - display inline block*/
+
 
 .clearfix:before,
 .clearfix:after {
@@ -20,7 +40,7 @@ light gray #ededed*/
 }
  
 .clearfix {
-  zoom: 1; /* ie 6/7 */
+  zoom: 1;  ie 6/7 
 }
 
 header{
@@ -64,11 +84,6 @@ p{
 	display: none;
 }
 
-.hover ul{
-	background: #ffffff;
-
-}
-
 .header_logo_dt{
 	display: none;
 }		
@@ -100,7 +115,7 @@ p{
 
 }
 
-.primary_navigation_list li{
+.primary_navigation_list > li{
 	display: inline-block;	
 	width: 49%;
 }
@@ -239,58 +254,68 @@ p{
 	text-align: center;
 }
 
-.bikes, .boating, .camping, .coolers, .exercise, .fanshop, .gameroom, .outdoor, .pools, .sports, .scooters, .clearance{
-	width: 50%;
-	min-height: 250px;
-	float: left;
-	border-top: 2px dotted #ededed;
-	margin-bottom: 8%;
+.category_item{
+	width: 49%;
+	display: inline-block;
+	border-bottom: 2px dotted #ededed;
+	text-align: center;
+	padding-bottom: 3em;
+	margin-bottom: 3em;
 }
 
-.boating img{
+.category_item a{
+	display: block;
+}
+
+.category_item a img{
+	display: block;
+	margin: 0;
+	padding: 0;
+	width: 100%;
+}
+
+.category_item > a{
 	width: 80%;
+	margin: 0 auto;
+}
+
+.toprated{
+	width: 78%;
+	margin: 0 auto;
+	float: right;
+	padding: 0;
 }
 
 
-.top_rated{
-	margin-top: 4%;
-	margin-bottom: 4%;
-}
-
-.top_rated h2{
+.toprated h2{
 	font-size: 1.1em;
 	clear: both;
 	background: #cc0000;
 	padding: 4%;
 	text-align: left;
 	color: #ffffff;
-	margin: 0;
+	margin: 0 auto;
 
 }
 
-.gaiam, .ripclaw, .samsung, .callaway{
+.toprated_item{
+	display: inline-block;
+	width: 49.5%;
+	margin: 0 auto;
+	padding: 0;
+	
+}
+
+.toprated_item > a > img{
 	display: block;
-	width: 41%;
-	min-height: 210px;
-	float: left;
-	margin-top: 2%;
-	margin-bottom: 0;
-	margin-left: 5%;
-	border-top: 2px dotted #ededed;
-}
-
-.gaiam, .ripclaw{
-	border: none;
-}
-
-.gaiam img, .ripclaw img, .samsung img, .callaway img{
 	width: 100%;
 }
 
-.top_rated li{
+
+.toprated li{
 	font-size: 0.8em;
 	font-weight: 700;
-	text-align: left;
+	text-align: center;
 	margin-left: 10%;
 
 }
@@ -539,17 +564,23 @@ footer{
 
 @media screen and (min-width: 420px){
 
-.bikes, .boating, .camping, .coolers, .exercise, .fanshop, .gameroom, .outdoor, .pools, .sports, .scooters, .clearance{	
+	.primary_searchbar button{
+		width: 6%;
+		margin-top: 4%;
+	}
 
-	width: 28%;
+	.categories{
+		width: 80%;
+		margin: 0 auto;
+	}
+
+	.category_item{	
+		width: 32%;
+	}
+
 
 }
 
-.bikes, .coolers, .gameroom, .sports{
-	margin-left: 6%;
-}
-
-}
 @media screen and (min-width: 680px){
 
 .primary_navigation_list a{
@@ -559,46 +590,36 @@ footer{
 }	
 
 .primary_searchbar button{
-	width: 5%;
+	width: 4%;
 }
 
 .primary_searchbar img{
 	width: 6%;
 }
 
-.bikes, .boating, .camping, .coolers, .exercise, .fanshop, .gameroom, .outdoor, .pools, .sports, .scooters, .clearance{
-	width: 28%;
-	margin-bottom: 0;
+.category_item{
+	width: 30%;
+	padding-right: 1%;
+	padding-left: 1%;
 }
 
-
-.bikes img, .boating img, .camping img, .coolers img, .exercise img, .fanshop img, .gameroom img, .outdoor img, .pools img, .sports img, .scooters img, .clearance img{
-
-	width: 40%;
-	margin-left: 20%;
-
-}
-
-.boating img{
-	width: 33%;
-}
-
-.bikes h2, .boating h2, .camping h2, .coolers h2, .exercise h2, .fanshop h2, .gameroom h2, .outdoor h2, .pools h2, .sports h2, .scooters h2, .clearance h2{
-
+.category_item h2{
 	font-size: 1.3em;
-	text-align: center;
-	margin-left: 3%;
-	
 }
 
-.gaiam, .ripclaw, .samsung, .callaway{
+.toprated_item{
+	padding-bottom: 1em;
+}
 
-	margin-left: 9%;
+.toprated_item a img{
+	width: 55%;
+	margin: 0 auto;
 
 }
 
-.top_rated img{
-	width: 40%;
+.tr_list{
+	display: block;
+	margin: 0 auto;	
 
 }
 
@@ -643,15 +664,21 @@ footer{
 	border-top: 2px dotted #ededed; 
 }
 
-}
+} /*end tablet media query*/
 
 @media screen and (min-width: 960px){
 
+footer{
+	clear: both;
+	background: #ffffff;
+}
 
 .site_header{
-	background: #cc0000;
-	padding: 2%;
+	background: #b50000;
+	padding-top: 1%;
+	padding-bottom: 3%;
 	position: relative;
+	margin: 0;
 }	
 
 .header_logo_m{
@@ -660,14 +687,24 @@ footer{
 
 .header_logo_dt{
 	display: block;
-	width: 5%;
+	width: 4%;
 	float: left;
 	margin-left: 7%;
+	margin-top: 0;
+	padding: 0;
+}
+
+.site_header h1{
+	margin: 0;
+
 }
 
 .primary_navigation{
 	width: 80%;
 	float: left;
+	background: none;
+	padding-top: 1%;
+
 }
 
 .primary_navigation_list{
@@ -675,18 +712,25 @@ footer{
 	padding-left: 2%;
 	padding-bottom: 0;
 	padding-top: 0;
+	margin-top: 0;
 
 	
 }
 
-.primary_navigation_list li{
+.primary_navigation_list > li{
 	display: inline-block;
-	width: 11%;
-	padding-right: 1%;
+	width: 12%;
+	padding-right: 0;
+	margin-bottom: 0;
 	font-size: 0.8em;
 	float: left;
 	text-align: center;
 
+}
+
+.primary_navigation_list a{
+	display: block;
+	font-size: 1em;
 }
 
 .categories h2{
@@ -702,13 +746,13 @@ footer{
 .mini_header{
 	background: #cc0000;
 	width: 90%;
-	height: 60%;
 	margin: 0 auto;
 	position: absolute;
-	top: 85%;
+	top: 70%;
 	left: 5%;
 	border-radius: 3px;
-	border: 1px solid #ffffff;
+	border-top: 1px solid #f24b33;
+	padding: 0.5%;
 }
 
 .shop_all_categories, .primary_searchbar, .shopping_cart{
@@ -716,6 +760,16 @@ footer{
 	float: left;
 
 }
+
+.shop_all_categories h3{
+	margin-top: 3%;
+}
+
+.shop_all_categories h3 a{
+	color: #ffffff;
+
+}
+
 .primary_searchbar{
 	width: 78%;
 	float: left;
@@ -731,15 +785,15 @@ footer{
 .primary_searchbar select{
 	width: 10.5%;
 	float: left;
-	margin-top: 2%;
+	margin-top: 1%;
 	margin-right: 0;
 	margin-left: 0;
 }
 
 .search_field{
-	width: 50%;
+	width: 57%;
 	float: left;
-	margin-top: 2%;
+	margin: 1% 0 0 0;
 }
 
 .shopping_cart{
@@ -747,14 +801,15 @@ footer{
 	width: 25%;
 	padding-bottom: 0;
 	float: left;
-	margin-top: 1%;
+	margin-top: 0;
 	margin-left: 2%;
+	border-left: 1px solid #f24b33;
 }
 
 .shopping_cart img{
 	display: inline-block;
 	width: 19%;
-	margin-top: 4%;
+	margin-top: 2%;
 	margin-right: 3%;
 	float: right;
 }
@@ -767,14 +822,14 @@ footer{
 	float: right;
 	margin-top: 6%;
 	margin-bottom: 0;
-	margin-right: 3%;
+	margin-right: 0;
 
 }
 
 .primary_searchbar button{
-	width: 4%;
-	margin-top: 2%;
-	margin-left: 1%;
+	width: 3%;
+	margin-top: 1%;
+	margin-left: 0;
 }
 
 .primary_searchbar button img{
@@ -787,20 +842,21 @@ footer{
 	width: 20%;
 	color: #ffffff;
 	float: left;
-	margin-right: 2%;
+	margin-right: 1%;
+	border-right: 1px solid #f24b33;
 }
 
 .shop_all_categories img{
 	width: 15%;
 	margin: 1%;
 	float: left;
-	margin-top: 6%;
+	margin-top: 2%;
 	margin-left: 6%;
 }
 
 .shop_all_categories h3{
 	width: 76%;
-	margin-top: 8%;
+	margin-top: 5%;
 	margin-bottom: 0;
 	margin-left: 2%;
 	font-size: 0.9em;
@@ -866,57 +922,41 @@ footer{
 
 .categories{
 	width: 78%;
-	float: left;
 	display: inline-block;
+
 }
 
 .categories h2{
-	display: inline-block;
+	
 	background: #cc0000;
-	min-height: 54px;
 	margin-top: 1%;
-	padding-top: 5%;
+	padding-top: 0;
+	display: inline-block;
+	vertical-align: top;
 
 }
 
-.categories h2 a{
-	color: #ffffff;
-	padding-top: 3%;
-}
 
 .categories h2 a:hover{
 	color: #ffffff;
 	text-decoration: underline;
 }
 
-.bikes, .boating, .camping, .coolers, .exercise, .fanshop, .gameroom, .outdoor, .pools, .sports, .scooters, .clearance{
-	width: 25%;
-	min-height: 250px;
-	float: left;
-	border-top: none;
-	margin-bottom: 0%;
-	margin-left: 0;
-	vertical-align: bottom;
+.category_item{
+	width: 22%;
 }
 
-.bikes img, .boating img, .camping img, .coolers img, .exercise img, .fanshop img, .gameroom img, .outdoor img, .pools img, .sports img, .scooters img, .clearance img{
-
-	height: 153px;
-	width: 100%;
-	margin-left: 0;
-
+.category_item h2 a{
+	min-height: 60px;
+	color: #ffffff;
+	padding-top: 3%;
 }
 
-
-.bikes h2, .boating h2, .camping h2, .coolers h2, .exercise h2, .fanshop h2, .gameroom h2, .outdoor h2, .pools h2, .sports h2, .scooters h2, .clearance h2{
-
-	margin-left: 0;
-	
+.category_item h2 a:hover{
+	color: #ffffff;
+	text-decoration: underline;
 }
 
-.boating img{
-	width: 80%;
-}
 
 .top_rated, .featured_items, .weekly_deals{
 	width: 79%;
@@ -1114,33 +1154,163 @@ footer{
 	color: #000000;
 }
 
-
-footer{
-	clear: both;
-	background: #ffffff;
-}
-
-.hover:hover{
+.mystore_li{
 	display: block;
+	position: relative;
 }
 
-} /*end desktop media query*/
+.mystore_dropdown{
+	display: none;
+}
+
+.mystore_li.hover .mystore_dropdown,
+.mystore_li:hover .mystore_dropdown{
+
+	display: block;
+	background: #ededed;
+	border: 1px solid #000000;
+	border-radius: 3px;
+	position: absolute;
+	top: 56%;
+	width: 200%;
+	padding: 10%;
+	left: 16%;
+	z-index: 999;
+}
+
+.redcard_li{
+	display: block;
+	position: relative;
+}
+
+.redcard_options{
+	display: none;
+}
+
+.redcard_options a{
+	color: #000000;
+
+}
+
+.redcard_options a:hover{
+	color: #000000;
+}
+
+.redcard_li.hover .redcard_options,
+.redcard_li:hover .redcard_options{
+	
+	display: block;
+	background: #ededed;
+	border: 1px solid #000000;
+	border-radius: 3px;
+	position: absolute;
+	top: 56%;
+	width: 120%;
+	padding: 10%;
+	left: 16%;
+	z-index: 1000;
+	font-size: 0.9em;	
+
+}
 
 
-/*begin dropdown menus*/
 
-/*.hover div ul{
+
+
+
+
+
+
+
+.category_item{
+	position: relative;
+}
+
+.category_item ul li{
+	text-align: center;
+}
+
+.category_item ul a{
+	color: #000000;
+	font-size: 0.9em;
+	text-decoration: underline;
+
+}
+
+.category_item ul span{
+	font-size: 1.4em;
+	font-weight: 700;
+}
+
+.category_item ul{
+	display: none;
+}
+
+
+
+.category_item.hover > a,
+.category_item:hover > a{
+	opacity: 0.1;
+}
+
+.category_item.hover h2,
+.category_item:hover h2{
+	background: none;
+	opacity: 0.1;
+}
+
+.category_item.hover ul,
+.category_item:hover ul{
+	display: block;
+	border-radius: 3px;
+	position: absolute;
+	margin: 0 auto;
+	top: 0;
+	bottom: 0;
+	right: 0;
+	left: 0;
+	z-index: 10001;
+	padding: 3%;
+
+}
+
+
+
+
+
+
+
+
+} /*end desktop media query*/	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*dropdown menus
+
+/*.shop_all_categories h3 a:hover{.womens_clothing_list{
         padding: 0;
         list-style: none;
     }
-.hover div ul li{
+.hover .womens_clothing_list li{
         width: 100px;
         display: inline-block;
         position: relative;
         text-align: center;
         line-height: 21px;
     }
-.hover div ul li a{
+.hover .womens_clothing_list li a{
         display: block;
         padding: 5px 10px;
         color: #333;
@@ -1148,22 +1318,26 @@ footer{
         text-decoration: none;
     }
     
-.hover div ul li a:hover{
+.hover .womens_clothing_list li a:hover{
         color: #fff;
         background: #939393;
     }
     
-.hover div ul li ul{
+.hover .womens_clothing_list li ul{
         display: none;
         position: absolute;
         z-index: 999;
         left: 0;
     }
     
-.hover div ul li:hover ul{
-        display: block; /* display the dropdown
+.hover .womens_clothing_list li:hover ul{
+        display: block; 
+     }   */
 
- }       */ 
+
+        /* display the dropdown
+
+         
     
 
 
