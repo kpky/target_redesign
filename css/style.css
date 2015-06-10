@@ -98,6 +98,7 @@ p{
 .primary_navigation{
 	background: #cc0000;
 
+
 }
 
 .primary_navigation_list a:hover{
@@ -163,58 +164,73 @@ p{
 
 }
 
+.mini_header{
+	background: #cc0000;
+	padding-right: 2%;
+	padding-left: 2%;
+	padding-bottom: 2%;
+}
+
+.primary_searchbar{
+	width: 100%;
+}
+
 .primary_searchbar form{
 	display: block;
-	width: 100%;
-	float: center;
-	background: #cc0000;
-	padding-top: 3%;
-	padding-bottom: 3%;
-
+	width: 85%;
+	float: left;
+	padding-top: 0;
+	padding-bottom: 0;
 
 }
 
 .primary_searchbar select{
-	width: 96%;
-	margin-right: 2%;
-	margin-left: 2%;
-		
+	width: 33%;
 }
 
 .search_field{
-	margin: 4% 2% 3% 2%;
-	width: 65%;
-	float: left;
+	margin: 2%;
+	width: 45%;
+	margin-bottom: 0;
 
 }
 
 .primary_searchbar img{
-	width: 10%;
+	width: 100%;
 
 }
 
 .primary_searchbar button{
 	width: 8%;
 	padding: 0;
-	margin-top: 3.5%;
-	float: left;
+	margin-top: 0;
+	margin-left: 3%;
 
 }
 
 .primary_searchbar button img{
 	width: 100%;
-	margin: 2% auto;
+	margin-top: 2%;
 }
 
 .shopping_cart{
-	width: 100%;
-	background: #cc0000;
-	padding-bottom: 3%;
+	width: 12%;
+	background: none;
+	margin-top: 0;
+	padding-bottom: 0;
+	float: left;
+}
+
+.shopping_cart a{
+	display: block;
+
 }
 
 .shopping_cart img{
-	margin-left: 7%;
+	width: 75%;
+	margin-left: 0;
 	margin-top: 0.5%;
+	margin: 0 auto;
 }
 
 .shopping_cart h4{
@@ -280,9 +296,8 @@ p{
 }
 
 .toprated{
-	width: 78%;
+	width: 80%;
 	margin: 0 auto;
-	float: right;
 	padding: 0;
 }
 
@@ -300,7 +315,7 @@ p{
 
 .toprated_item{
 	display: inline-block;
-	width: 49.5%;
+	width: 48.5%;
 	margin: 0 auto;
 	padding: 0;
 	
@@ -320,6 +335,11 @@ p{
 
 }
 
+.featured_items{
+	width: 80%;
+	margin: 0 auto;
+}
+
 .featured_items h2{
 	font-size: 1.1em;
 	clear: both;
@@ -327,7 +347,7 @@ p{
 	padding: 4%;
 	text-align: left;
 	color: #ffffff;
-	margin: 0;
+	margin-top: 1em;
 
 }
 
@@ -353,8 +373,15 @@ p{
 
 }
 
-.weekly_deals h2{
+.weekly_deals{
+	width: 80%;
+	margin: 0 auto;
 	clear: both;
+
+}
+
+.weekly_deals h2{
+	
 	background: #cc0000;
 	color: #ffffff;
 	font-size: 1.1em;
@@ -427,7 +454,8 @@ p{
 
 .restrictions p{
 	font-weight: 500;
-	margin-left: 2%;
+	margin-left: 2em;
+	font-size: 0.7em;
 
 }
 
@@ -442,22 +470,24 @@ p{
 
 .about p{
 	font-size: 0.7em;
-	margin: 2%;
-	padding-bottom: 2%;
+	margin-left: 2em;
+	margin-right: 2em;
+	padding-bottom: 1%;
 	border-bottom: 2px dotted #ededed;
 
 }
 
 .secondary_nav{
-	width: 100%;
+	width: 95%;
+	margin: 0 auto;
 
 }
 
 .secondary_nav ul{
 	width: 99%;
 	border-bottom: 2px dotted #ededed;
-	padding: 1%;
-	margin: 0 2% 1% 0;
+	padding: 0;
+	margin: 0;
 
 }
 
@@ -481,19 +511,22 @@ p{
 
 footer{
 	background: #cc0000;
+	padding-left: 1em;
+	padding-right: 1em;
+	padding-bottom: 1em;
 
 }
 
 .tertiary_nav{
+	display: block;
 	width: 100%;
+
+
 }
 
 .tertiary_nav ul{
-	display: inline-block;
 	font-size: 0.7em;
 	font-weight: 700;
-	margin-left: 2%;
-	padding: 1%;
 	text-align: left;
 	
 }
@@ -502,7 +535,7 @@ footer{
 	display: inline-block;
 	font-size: 0.7em;
 	font-weight: 700;
-	padding: 0.5%;
+	margin: 0 auto;
 }
 
 .tertiary_nav a{
@@ -518,9 +551,6 @@ footer{
 .tertiary_nav p{
 	font-size: 0.6em;
 	font-weight: 500;
-	margin: 3%;
-	margin-top: 0;
-	margin-bottom: 0;
 	color: #ffffff;
 
 }
@@ -529,9 +559,8 @@ footer{
 	display: inline-block;
 	font-size: 0.7em;
 	font-weight: 500;
-	margin-left: 2%;
-	padding: 1%;
 	text-align: left;
+	margin: 0;
 
 }
 
@@ -540,7 +569,6 @@ footer{
 	font-size: 0.7em;
 	font-weight: 700;
 	color: #ffffff;
-	padding-right: 1%;
 
 }
 
@@ -565,8 +593,8 @@ footer{
 @media screen and (min-width: 420px){
 
 	.primary_searchbar button{
-		width: 6%;
-		margin-top: 4%;
+		width: 8%;
+		margin-top: 0;
 	}
 
 	.categories{
@@ -583,19 +611,89 @@ footer{
 
 @media screen and (min-width: 680px){
 
+
+.primary_searchbar form{
+	display: block;
+	width: 90%;
+	float: center;
+	background: none;
+	padding-top: 0;
+	padding-bottom: 0;
+
+}
+
+.primary_searchbar select{
+	display: block;
+	float: left;
+	width: 30%;
+	margin: 2%;
+	padding: 0.5%;
+	-webkit-appearance: none;
+	outline: none;
+	font-size: 0.8em;
+	text-align: center;
+		
+}
+
+.search_field{
+	width: 54%;
+	margin: 2%;
+
+}
+
+.primary_searchbar img{
+	width: 6%;
+	border-radius: 3px;
+
+}
+
+.primary_searchbar button{
+	width: 4%;
+	padding: 0;
+	margin-top: 0;
+	margin-left: 0;
+
+}
+
+.primary_searchbar button img{
+	width: 100%;
+	margin: 0 auto;
+}
+
+.shopping_cart{
+	width: 7%;
+	background: none;
+	padding-bottom: 0;
+	float: left;
+}
+
+.shopping_cart a{
+	display: block;
+}
+
+.shopping_cart img{
+	width: 100%;
+	margin: 0;
+}
+
+.shopping_cart h4{
+
+	display: none;
+
+}
+
+.mini_header{
+	margin: 0 auto;
+	background: #cc0000;
+}
+
+
+
 .primary_navigation_list a{
 
 	font-size: 1.3em;
 
 }	
-
-.primary_searchbar button{
-	width: 4%;
-}
-
-.primary_searchbar img{
-	width: 6%;
-}
 
 .category_item{
 	width: 30%;
@@ -671,6 +769,12 @@ footer{
 footer{
 	clear: both;
 	background: #ffffff;
+}
+
+.wrapper{
+	display: block;
+	width: 80%;
+	margin: 0 auto;
 }
 
 .site_header{
@@ -752,7 +856,7 @@ footer{
 	left: 5%;
 	border-radius: 3px;
 	border-top: 1px solid #f24b33;
-	padding: 0.5%;
+	padding: 0;
 }
 
 .shop_all_categories, .primary_searchbar, .shopping_cart{
@@ -777,6 +881,7 @@ footer{
 }
 
 .primary_searchbar form{
+	width: 70%;
 	background: none;
 	padding: 0;
 
@@ -791,7 +896,7 @@ footer{
 }
 
 .search_field{
-	width: 57%;
+	width: 82%;
 	float: left;
 	margin: 1% 0 0 0;
 }
@@ -827,7 +932,7 @@ footer{
 }
 
 .primary_searchbar button{
-	width: 3%;
+	width: 5%;
 	margin-top: 1%;
 	margin-left: 0;
 }
@@ -854,17 +959,12 @@ footer{
 	margin-left: 6%;
 }
 
-.shop_all_categories h3{
+.shop_all_categories > h3{
 	width: 76%;
 	margin-top: 5%;
-	margin-bottom: 0;
 	margin-left: 2%;
 	font-size: 0.9em;
 	float: left;
-}
-
-.shop_all_categories ul{
-	display: none;
 }
 
 .wrapper{
@@ -955,6 +1055,10 @@ footer{
 .category_item h2 a:hover{
 	color: #ffffff;
 	text-decoration: underline;
+}
+
+.toprated{
+	float: right;
 }
 
 
@@ -1051,7 +1155,8 @@ footer{
 
 .secondary_nav{
 	display: block;
-	width: 73%;
+	margin: 0 auto;
+	width: 72%;
 	float: right;
 	background: #ffffff;
 	color: #000000;
@@ -1088,16 +1193,22 @@ footer{
 	text-decoration: underline;
 }
 
+.site_footer{
+	width: 80%;
+	padding-left: 0;
+	padding-right: 0;
+	margin: 0 auto;
+}
+
 
 .tertiary_nav, .bottom_nav1{
 	background: #ffffff;
-	width: 93%;
+	width: 100%;
 
 }
 
 .tertiary_nav nav{
 	width: 100%;
-
 
 }
 
@@ -1108,7 +1219,7 @@ footer{
 
 .tertiary_nav ul, .tertiary_nav p{
 	text-align: right;
-	width: 92%;
+	width: 100%;
 	margin-bottom: 0;
 	color: #000000;
 	
@@ -1137,12 +1248,12 @@ footer{
 } 
 
 .bottom_nav{
-	width: 88%;
+	width: 100%;
 	text-align: right;
 }
 
 .bottom_nav ul{
-	width: 76%;
+	width: 90%;
 	text-align: right;
 	margin-top: 0;
 	margin-bottom: 0;
@@ -1161,6 +1272,15 @@ footer{
 
 .mystore_dropdown{
 	display: none;
+}
+
+.mystore_dropdown h3 a{
+	color: #000000;
+}
+
+.mystore_dropdown h3 a:hover{
+	color: #000000;
+	text-decoration: underline;
 }
 
 .mystore_li.hover .mystore_dropdown,
@@ -1213,15 +1333,6 @@ footer{
 
 }
 
-
-
-
-
-
-
-
-
-
 .category_item{
 	position: relative;
 }
@@ -1232,7 +1343,7 @@ footer{
 
 .category_item ul a{
 	color: #000000;
-	font-size: 0.9em;
+	font-size: 0.7em;
 	text-decoration: underline;
 
 }
@@ -1245,8 +1356,6 @@ footer{
 .category_item ul{
 	display: none;
 }
-
-
 
 .category_item.hover > a,
 .category_item:hover > a{
@@ -1274,11 +1383,134 @@ footer{
 
 }
 
+.main_categories_list{
+	display: block;
+	position: absolute;
+	width: 20%;
+	background: #454545;
+	color: #ffffff;
+	z-index: 1002;
+	margin: 0;
+	border-radius: 3px;
+	top: 100%;
+	left: 0;
+}
+
+.main_categories_list > li{
+	width: 100%;
+	padding: 1em;
+	font-weight: 700;
+	border-top: 1px solid #ffffff;
+	
+}
+
+.main_categories_list > li > a{
+
+	color: #ffffff;
+	font-size: 0.9em;
+	font-weight: 700;
+}
+
+.csj_sublist{
+	display: block;
+	width: 400%;
+	background: green;
+	position: absolute;
+	border-radius: 3px;
+	top: 0;
+	left: 100%;
+	z-index: 1001;
+
+}
+
+.csj_sublist_col1, .csj_sublist_col2, .csj_sublist_col3, .csj_sublist_col4{
+	width: 25%;
+	float: left;
+}
+
+.csj_sublist_col1 > ul, .csj_sublist_col2 > ul, .csj_sublist_col3 > ul, .csj_sublist_col4 > ul{
+	display: block;
+
+}
+
+.csj_sublist_col1 > ul > li > a{
+	color: #ffffff;
+}
+
+.csj_sublist_col2 > ul > li > a{
+	color: #ffffff;
+}
+
+.csj_sublist_col3 > ul > li > a{
+	color: #ffffff;
+}
+
+.csj_sublist_col4 > ul > li > a{
+	color: #ffffff;
+}
+
+
+.csj_sublist ul li{
+	display: block;
+	color: #ffffff;
+	font-weight: 500;
+	font-size: 0.9em;
+
+}
+
+.csj_sublist h3 a{
+	font-size: 1.1em;
+
+}
 
 
 
+.main_categories_list .hover{
+	display: block;
+	width: 400%;
+	background: gray;
+	position: absolute;
+	border-radius: 3px;
+	top: 0;
+	left: 100%;
+	z-index: 1002;
+	box-shadow: 0 0 10px rgba( 0, 0, 0, 0.3);
+}
 
+.main_categories_list .hover ul li{
+	display: block;
+	color: #ffffff;
+	font-weight: 500;
+	font-size: 0.9em;
 
+}
+
+.main_categories_list .hover h3 a{
+	font-size: 1.1em;
+
+}
+
+.main_categories_list .hover .col{
+	width: 25%;
+	float: left;
+}
+
+.main_categories_list .hover .col > ul{
+	display: block;
+}
+
+.main_categories_list .hover .col > ul > li > a{
+	color: #ffffff;
+}	
+
+.hover .col h3 span{
+	color: #ffffff;
+	font-weight: 700;
+}
+
+.hover{
+	padding: 4%;
+}
 
 
 } /*end desktop media query*/	
@@ -1286,58 +1518,6 @@ footer{
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-/*dropdown menus
-
-/*.shop_all_categories h3 a:hover{.womens_clothing_list{
-        padding: 0;
-        list-style: none;
-    }
-.hover .womens_clothing_list li{
-        width: 100px;
-        display: inline-block;
-        position: relative;
-        text-align: center;
-        line-height: 21px;
-    }
-.hover .womens_clothing_list li a{
-        display: block;
-        padding: 5px 10px;
-        color: #333;
-        background: #f2f2f2;
-        text-decoration: none;
-    }
-    
-.hover .womens_clothing_list li a:hover{
-        color: #fff;
-        background: #939393;
-    }
-    
-.hover .womens_clothing_list li ul{
-        display: none;
-        position: absolute;
-        z-index: 999;
-        left: 0;
-    }
-    
-.hover .womens_clothing_list li:hover ul{
-        display: block; 
-     }   */
-
-
-        /* display the dropdown
-
-         
     
 
 

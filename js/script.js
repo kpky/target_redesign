@@ -1,32 +1,29 @@
-// <script type="text/javascript">
-// 2
-// $(function() {
-// 3
-// $('.hover').smartmenus({
-// 4
-// subMenusSubOffsetX: 1,
-// 5
-// subMenusSubOffsetY: -8
-// 6
-// });
-// 7
-// });
-// 8
-// </script>
 
-// mouseenter mouseleave
+$( function(){
 
+    var $menu_button = $( ".shop_all_categories" ),
+        $nav         = $( ".main_categories_list" ),
+        $lev1_nav    = $( ".main_categories_list > li" ),
+        $lev2_nav    = $( ".main_categories_list .hover" );
 
-// (function(window, undefined){
-// 	$(function(){
+        $nav.hide();
+        $lev2_nav.hide();
 
-// 		var $menu_button = $( "main_nav_container"),
-// 			$nav = $( ".top_nav"),
-// 		 	$lev2_nav = $("lev2_nav");
+    $menu_button.on( "mouseenter", function( e ){
+        $nav.show();
+    } );
 
-// 		 	$nav.hide();
-// 		 	$lev2_nav.hide();
+    $menu_button.on( "mouseleave", function( e ){
+        $nav.hide();
+    } );
 
-// 		 .menu_button.on("mouseenter", )
-// 	})
-// })
+    $lev1_nav.on( "mouseenter", function( e ){
+
+        $( this ).addClass( "active" ).find( ".hover" ).show();
+    } );
+
+    $lev1_nav.on( "mouseleave", function( e ){
+
+        $( this ).removeClass( "active" ).find( ".hover" ).hide();
+    } );
+} );
